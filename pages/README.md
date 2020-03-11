@@ -1,6 +1,6 @@
 ---
   home: true
-  heroImage: '/logo-big.jpg'
+  heroImage: '/assets/img/logo-big.jpg'
   heroText: Shrewsbury Christian Academy 
   tagline: Southern York County's preferred Christian based STEM school
   actionText: Learn More →

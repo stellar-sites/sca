@@ -1,4 +1,8 @@
+const path = require("path");
+
 var baseURL = process.env.NODE_ENV == 'production' ? '/sca/' : '/';
+var withBase = function (s) { return baseURL + s; }
+console.log('BaseURL: ' + baseURL);
 
 module.exports = {
   title: 'scaonline',
@@ -6,7 +10,7 @@ module.exports = {
   dest: '../docs',
   base: baseURL,
   themeConfig: {
-    logo: '/logo.jpg',
+    logo: '/assets/img/logo.jpg',
     search: true,
     searchPlaceholder: 'Search...',
     searchMaxSuggestions: 5,
@@ -28,5 +32,12 @@ module.exports = {
         ]
       }
     ]
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@assets': path.resolve(__dirname,"../assets")
+      }
+    }
   }
 }
