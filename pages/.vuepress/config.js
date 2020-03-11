@@ -1,6 +1,7 @@
 module.exports = {
   title: 'scaonline',
   description: "Shrewsbury Christian Academy Online",
+  dest: '../docs',
   themeConfig: {
     logo: '/logo.jpg',
     search: true,
