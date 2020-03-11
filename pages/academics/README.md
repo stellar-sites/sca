@@ -96,8 +96,8 @@ Middle school students receive reading instruction through the Foundations & Fra
 The middle school literature curriculum enables students to reflect upon ideas, events, people, culture, and history in light of God’s Word and purposes for the world.  Vocabulary word lists are elicited from the literature selections that help students understand appropriate and orderly uses of and an appreciation of language. Below are some sample  novels read in middle school.
 
 ## Middle School Novels
-<image-grid-ImageGrid :images="['/assets/books/the-hobbit.jpg','/assets/books/black-horse-for-the-king.jpg','/assets/books/tremain.jpg','/assets/books/friedrich.jpg','/assets/books/charlotte-doyle.jpg']" />
-	
+<image-grid-ImageGrid dir='/assets/books/' :images="['the-hobbit.jpg','black-horse-for-the-king.jpg','tremain.jpg','friedrich.jpg','charlotte-doyle.jpg','call-of-the-wild.jpg','dragonwings.jpg','kings-shadow.jpg','master-puppeteer.jpg','bronze-bow.jpg','drift-house.jpg','gifted-hands.jpg','lion-witch-wardrobe.jpg','samurais-tale.jpg']" />
+
 
 ::: tip
   Please note:  The middle school novels are subject to change at the discretion of the teacher.
