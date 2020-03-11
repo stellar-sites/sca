@@ -44,7 +44,7 @@ Shrewsbury Christian Academy partners with the home and church to provide an atm
 4. The student will formulate a personal Christian world/life view, which will be integrated into every area of life.
 
 
-## Intellectual Development <Badget text="I Cor. 11:7" /><Badge text="2 Tim. 2:15" /><Badget text="Luke 2:52" /><Badge text="Deut. 6:4-9" />
+## Intellectual Development <Badge text="I Cor. 11:7" /><Badge text="2 Tim. 2:15" /><Badge text="Luke 2:52" /><Badge text="Deut. 6:4-9" />
 
 1. The student will learn the skills for effective critical thinking, comprehension, communication, and computation.
 2. The student will develop creative thinking and appreciation of the arts and sciences.

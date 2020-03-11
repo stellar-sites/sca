@@ -1,7 +1,10 @@
+var baseURL = process.env.NODE_ENV == 'production' ? '/sca/' : '/';
+
 module.exports = {
   title: 'scaonline',
   description: "Shrewsbury Christian Academy Online",
   dest: '../docs',
+  base: baseURL,
   themeConfig: {
     logo: '/logo.jpg',
     search: true,
@@ -9,12 +12,12 @@ module.exports = {
     searchMaxSuggestions: 5,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
-      { text: 'Admissions', link: '/admissions' },
-      { text: 'Tuition', link: '/tuition' },
-      { text: 'Academics', link: '/academics' },
-      { text: 'Support', link: '/support' },
-      { text: 'Contact', link: '/contact' },
+      { text: 'About', link: '/about/' },
+      { text: 'Admissions', link: '/admissions/' },
+      { text: 'Tuition', link: '/tuition/' },
+      { text: 'Academics', link: '/academics/' },
+      { text: 'Support', link: '/support/' },
+      { text: 'Contact', link: '/contact/' },
       { 
         text: 'External',
         ariaLabel: '',

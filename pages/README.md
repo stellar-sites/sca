@@ -4,7 +4,7 @@
   heroText: Shrewsbury Christian Academy 
   tagline: Southern York County's preferred Christian based STEM school
   actionText: Learn More →
-  actionLink: '/about'
+  actionLink: '/about/'
   features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.
