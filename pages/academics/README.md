@@ -12,7 +12,7 @@ We offer weekly enrichment classes to all students in kindergarten through grade
 # Pre-School (3 and 4 Year Old)
 
 ::: tip
-  To learn more out SCA's pre-school program, please [click here](/assets/files/sca-preschool.pdf).
+  To learn more out SCA's pre-school program, please [click here](assets/files/sca-preschool.pdf).
 :::
 
 # Early Childhood (K – 2nd Grade)
@@ -96,7 +96,7 @@ Middle school students receive reading instruction through the Foundations & Fra
 The middle school literature curriculum enables students to reflect upon ideas, events, people, culture, and history in light of God’s Word and purposes for the world.  Vocabulary word lists are elicited from the literature selections that help students understand appropriate and orderly uses of and an appreciation of language. Below are some sample  novels read in middle school.
 
 ## Middle School Novels
-<image-grid-ImageGrid dir='/assets/books/' summary='Titles' :images="['the-hobbit.jpg','black-horse-for-the-king.jpg','tremain.jpg','friedrich.jpg','charlotte-doyle.jpg','call-of-the-wild.jpg','dragonwings.jpg','kings-shadow.jpg','master-puppeteer.jpg','bronze-bow.jpg','drift-house.jpg','gifted-hands.jpg','lion-witch-wardrobe.jpg','samurais-tale.jpg','fire-aprils.jpg','roll-of-thunder.jpg','behind-rebel-lines.jpg','fire-in-their-eyes.jpg','lost-in-barrens.jpg','slave-dancer.jpg','the-wrestling-game.jpg','edge-on-the-sword.jpg','lights-in-the-forest.jpg','magicians-nephew.jpg','the-horse-and-his-boy.jpg','basher-52.jpg','mara-of-the-nile.jpg','my-brother-sister-and-i.jpg','surviving-hitler.jpg','the-devils-arithmetic.jpg','rifles-for-watie.jpg','Juan-de-pareja.jpg']" />
+<image-grid-ImageGrid :dir="$withBase('/assets/books/')" summary='Titles' :images="['the-hobbit.jpg','black-horse-for-the-king.jpg','tremain.jpg','friedrich.jpg','charlotte-doyle.jpg','call-of-the-wild.jpg','dragonwings.jpg','kings-shadow.jpg','master-puppeteer.jpg','bronze-bow.jpg','drift-house.jpg','gifted-hands.jpg','lion-witch-wardrobe.jpg','samurais-tale.jpg','fire-aprils.jpg','roll-of-thunder.jpg','behind-rebel-lines.jpg','fire-in-their-eyes.jpg','lost-in-barrens.jpg','slave-dancer.jpg','the-wrestling-game.jpg','edge-on-the-sword.jpg','lights-in-the-forest.jpg','magicians-nephew.jpg','the-horse-and-his-boy.jpg','basher-52.jpg','mara-of-the-nile.jpg','my-brother-sister-and-i.jpg','surviving-hitler.jpg','the-devils-arithmetic.jpg','rifles-for-watie.jpg','Juan-de-pareja.jpg']" />
 
 ::: tip
   Please note:  The middle school novels are subject to change at the discretion of the teacher.

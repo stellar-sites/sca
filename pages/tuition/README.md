@@ -7,7 +7,7 @@ As an independent, non denominational Christian school, Shrewsbury Christian Aca
 
 SCA is overseen by a school board consisting of parents and local business people who carefully determine the yearly tuition rates based on projected yearly expenditures.
 
-<a href="/assets/files/sca-tuition-fees.pdf" target="_blank">Download the Tuition & Fees PDF.</a>
+<a href="assets/files/sca-tuition-fees.pdf" target="_blank">Download the Tuition & Fees PDF.</a>
 
 Discounted Early Registration Fees (now through March 23, 2019)
 

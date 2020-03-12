@@ -2,7 +2,7 @@
   title: About
 ---
 
-<slideshow-Slideshow dir='/assets/img/' :images="['first-grade-classroom-teacher.jpg','second-grade-paperwork.jpg','fifth-grade-boy-in-class.jpg']" />
+<slideshow-Slideshow :dir="$withBase('/assets/img/')" :images="['first-grade-classroom-teacher.jpg','second-grade-paperwork.jpg','fifth-grade-boy-in-class.jpg']" />
 
 # About Shrewsbury Christian Academy
 Shrewsbury Christian Academy is a non-denominational, community Christian school serving families within southern York county, Pennsylvania as well as northern Harford and Baltimore counties, Maryland. SCA is governed by a self-perpetuating Board of Trustees, consisting of parents and local business people, which is vested with the management of the business affairs of the school.

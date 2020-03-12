@@ -1,6 +1,6 @@
 const path = require("path");
 
-var baseURL = process.env.NODE_ENV == 'production' ? '/sca/' : '/';
+var baseURL = process.env.NODE_ENV === 'production' ? '/sca/' : '/';
 var withBase = function (s) { return baseURL + s; }
 console.log('BaseURL: ' + baseURL);
 
@@ -10,7 +10,7 @@ module.exports = {
   dest: '../docs',
   base: baseURL,
   themeConfig: {
-    logo: '/assets/img/logo.jpg',
+    logo: 'assets/img/logo.jpg',
     search: true,
     searchPlaceholder: 'Search...',
     searchMaxSuggestions: 5,
