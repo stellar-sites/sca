@@ -20,6 +20,7 @@ module.exports = {
       { text: 'Info', link: '/info/' },
       { text: 'Admissions', link: '/admissions/' },
       { text: 'Tuition', link: '/tuition/' },
+      { text: 'Staff', link: '/staff/' },
       { text: 'Academics', link: '/academics/' },
       { text: 'Support', link: '/support/' },
       { text: 'Contact', link: '/contact/' },

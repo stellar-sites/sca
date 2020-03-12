@@ -28,5 +28,6 @@ Our students come from York county, Pennsylvania as well as from Baltimore & Har
 View the tuition & fees, the admissions application form, and our school brochure. We offer K3 through the 8th grade. You can begin the Process to Enrollment by completing the School Inquiry Form, after which we will send you an Information Packet.
 
 ::: tip
-  [Go to Admissions](/admissions/)
+  [Learn more about admissions](/admissions/)
 :::
+
