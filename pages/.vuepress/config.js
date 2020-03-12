@@ -5,7 +5,7 @@ var withBase = function (s) { return baseURL + s; }
 console.log('BaseURL: ' + baseURL);
 
 module.exports = {
-  title: 'scaonline',
+  title: 'Shrewsbury Christian Academy',
   description: "Shrewsbury Christian Academy Online",
   dest: '../docs',
   base: baseURL,
@@ -17,6 +17,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/' },
+      { text: 'Info', link: '/info/' },
       { text: 'Admissions', link: '/admissions/' },
       { text: 'Tuition', link: '/tuition/' },
       { text: 'Academics', link: '/academics/' },
