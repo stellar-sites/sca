@@ -4,7 +4,7 @@ node_js:
 install:
   - yarn global add vuepress
 script:
-  - vuepress build
+  - cd $TRAVIS_BUILD_DIR/pages && vuepress build
 deploy:
   provider: pages
   skip_cleanup: true
