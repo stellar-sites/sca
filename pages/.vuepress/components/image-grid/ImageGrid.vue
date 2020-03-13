@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="row">
-      <div class="column" v-for="img in images" :title="img">
-        <img :src="dir + img" :alt="img" style="width:100%">
+      <div class="column" v-for="img in images" :title="img.title || img.link">
+        <img :src="dir + img.link" :alt="img.title || img.link" style="width:100%">
       </div>
     </div>
 
@@ -10,7 +10,7 @@
       <summary>{{ summary }}</summary>
       <p>
         <ul>
-          <li v-for="img in images">{{ img }}</li>
+          <li v-for="img in images">{{ img.title }}</li>
         </ul>
       </p>
     </details>

@@ -2,7 +2,7 @@
   <div class="card">
     <img v-if="image" :src="image" :alt="title" style="width:100%">
     <h1>{{ title }}</h1>
-    <p v-if="subtitle" class="title">{{ subtitle }}</p>
+    <p v-if="subtitle" class="card-title">{{ subtitle }}</p>
     <p v-if="subtext">{{ subtext }}</p>
     <a class="card-link" v-for="icon in icons" :href="icon.link"><i :class="icon.class"></i></a>
     <p v-if="action"><a :href="action.link" class="card-action">{{ action.text }}</a></p>
@@ -48,7 +48,7 @@ export default {
   text-align: center;
 }
 
-.title {
+.card-title {
   color: grey;
   font-size: 18px;
 }
