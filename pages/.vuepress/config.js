@@ -20,12 +20,20 @@ module.exports = {
       { text: 'Info', link: '/info/' },
       { text: 'Admissions', link: '/admissions/' },
       { text: 'Tuition', link: '/tuition/' },
-      { text: 'Staff', link: '/staff/' },
       { text: 'Academics', link: '/academics/' },
+      { text: 'Events', link: '/events/' },
       { text: 'Support', link: '/support/' },
       { text: 'Contact', link: '/contact/' },
+      {
+        text: 'More',
+        ariaLabel: '',
+        items: [
+          { text: 'Staff', link: '/staff/' },
+          { text: 'Employment', link: '/employment/' },
+        ]
+      },
       { 
-        text: 'External',
+        text: 'Links',
         ariaLabel: '',
         items: [
           { text: 'Sycamore', link: 'https://app.sycamoreeducation.com/index.php?task=newlogin&schoolid=1494', target: '_blank', rel: '' },
