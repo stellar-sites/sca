@@ -1,5 +1,6 @@
 ---
   title: Admissions
+  hero: true
   heroText: Shrewsbury Christian Academy 
   tagline: To Apply, just fill out the following form and submit or email to admin@scaonline.org
   actionText: Download Application →
@@ -7,7 +8,9 @@
 ---
 # Admissions
 
-[Download Application](assets/files/sca-application-eform.pdf)
+[Download Application](@assets/files/sca-application-eform.pdf)
+
+<a :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
 
 <hr>
 

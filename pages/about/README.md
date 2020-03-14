@@ -16,7 +16,10 @@ Dallastown, Red Lion, South Eastern, South Western and Southern school districts
 Call us at (717) 235-5763 or submit our online contact form to learn more about the school, our standards of excellence & passion for Christ, and the admissions process.
 
 # History
-Shrewsbury Christian Academy was founded by Jeanette Harvey in 1977 as a ministry to the community, welcoming students from a variety of backgrounds and denominations. Over the years, the school has continued to grow in numbers, programs, and reputation. The school has always remained committed to providing a unique Bible-based, Christ-centered education that prepares young people to impact their world for Jesus and help develop a Christian worldview that will be lived out in real and meaningful ways. The need for a Christian school in this community has not diminished, but continues to strengthen in the context of a world where Christian values and commitments are increasingly pushed aside, especially in the country’s educational system.
+
+::: slot photo
+  Shrewsbury Christian Academy was founded by Jeanette Harvey in 1977 as a ministry to the community, welcoming students from a variety of backgrounds and denominations. Over the years, the school has continued to grow in numbers, programs, and reputation. The school has always remained committed to providing a unique Bible-based, Christ-centered education that prepares young people to impact their world for Jesus and help develop a Christian worldview that will be lived out in real and meaningful ways. The need for a Christian school in this community has not diminished, but continues to strengthen in the context of a world where Christian values and commitments are increasingly pushed aside, especially in the country’s educational system.
+:::
 
 # Vision Statement
 Achieving excellence in knowledge and faith.
