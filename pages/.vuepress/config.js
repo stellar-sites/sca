@@ -14,7 +14,7 @@ module.exports = {
     'seo': {}
   },
   themeConfig: {
-    logo: 'assets/img/logo.jpg',
+    logo: withBase('assets/img/logo.jpg'),
     search: true,
     searchPlaceholder: 'Search...',
     searchMaxSuggestions: 5,
