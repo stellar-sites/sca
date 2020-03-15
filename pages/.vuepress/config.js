@@ -25,14 +25,13 @@ module.exports = {
       { text: 'Tuition', link: '/tuition/' },
       { text: 'Academics', link: '/academics/' },
       { text: 'Events', link: '/events/' },
-      { text: 'Support', link: '/support/' },
       { text: 'Contact', link: '/contact/' },
       {
         text: 'More',
         ariaLabel: '',
         items: [
-          { text: 'Staff', link: '/staff/' },
           { text: 'Employment', link: '/employment/' },
+          { text: 'Support', link: '/support/' }
         ]
       },
       { 
@@ -47,7 +46,7 @@ module.exports = {
     ]
   },
   extendPageData ($page) {
-    $page.principal = "Mrs. Debora Staff"
+    $page.principal = "Mrs. Deborah Stapf"
     $page.books = [
       { title: 'Basher Five-Two', link: 'basher-52.jpg' },
       { title: 'Behind Rebel Lines', link: 'behind-rebel-lines.jpg' },

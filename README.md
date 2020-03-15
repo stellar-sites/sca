@@ -21,13 +21,13 @@ This `docs/` directory contains the files that the hosting provider (Github Page
 7. Make any changes you want in the pages/ directory
 8. To test changes (which you NEED to do before commiting), type 'vuepress dev' (if vuepress doesn't work, type `yarn global add vuepress` then `export PATH=$PATH:~/.yarn/bin` to download and use vuepress.
 9. Once the `vuepress dev` command starts the test server, click the `Cloud Shell` Web Preview button in the top right to open a new Browser tab to access the updated test website.
-10. Once the changes look good, you can `vuepress build` to build the new updated website which updates the `docs/` directory.
-11. Once ready to commit all changes, navigate back into root of the git project with `cd ~/scaonline`
-12. Type `git status` to view the current git project status (will show all files which have changed)
-13. Type `git add -A` to add all changed files
-14. Type `git commit -m 'updated the whatever for whatever reason'` to commit changes locally
-15. WARNING - the following step will update the LIVE website, ensure your changes are correct before doing so.
-16. Type `git push -u origin master` to push committed changes to github.
+10. Once ready to commit all changes, navigate back into root of the git project with `cd ~/scaonline`
+11. Type `git status` to view the current git project status (will show all files which have changed)
+12. Type `git add -A` to add all changed files
+13. Type `git commit -m 'updated the whatever for whatever reason'` to commit changes locally
+14. WARNING - the following step will update the LIVE website, ensure your changes are correct before doing so.
+15. Type `git push -u origin master` to push committed changes to github.
+16. Once a branch is commited to master, a Travis CI worker will automatically detect, download, and run 'vuepress build' to compile the website and commit it to the 'github-pages' branch which will get hosted by github pages for free.
 
 
 

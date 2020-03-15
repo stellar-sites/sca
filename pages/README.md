@@ -7,11 +7,11 @@
   actionLink: '/about/'
   features:
   - title: Christian Principles
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+    details: Educating students in a Christian environment that reveals God’s ultimate purpose for their lives.
   - title: Children Focused
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+    details: Shrewsbury Christian Academy partners with the home and church to provide an atmosphere in which the whole child may grow toward full God-given potential.
   - title: Proven Education
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+    details: Offering a Christ-centered private education for preschool through eighth grade since 1977.
   footer: |
     © 2020 Christian School of Southern York County · dba Shrewsbury Christian Academy · a 501(c)(3) nonprofit organization
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.

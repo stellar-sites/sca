@@ -21,7 +21,7 @@ Registration Fees (after March 23, 2019)
     Per Student (K5-8th Grade): $325
     Maximum per Family: $600
 
-::: tip
+::: tip notice
   Registration fees help cover the costs of enrollment processing, buying expendable supplies, purchasing textbooks, etc. Registration Fees are non-refundable and cannot be transferred to tuition.
 :::
 
