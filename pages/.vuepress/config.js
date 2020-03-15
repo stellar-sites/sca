@@ -9,9 +9,10 @@ module.exports = {
   description: "Shrewsbury Christian Academy Online",
   dest: '../docs',
   base: baseURL,
-  plugins: [
-    'vue-plugin-load-script'
-  ],
+  plugins: {
+    'vue-plugin-load-script': {},
+    'seo': {}
+  },
   themeConfig: {
     logo: 'assets/img/logo.jpg',
     search: true,
@@ -47,6 +48,9 @@ module.exports = {
   },
   extendPageData ($page) {
     $page.principal = "Mrs. Deborah Stapf"
+    $page.links = {
+      sycamore: "https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494"
+    }
     $page.books = [
       { title: 'Basher Five-Two', link: 'basher-52.jpg' },
       { title: 'Behind Rebel Lines', link: 'behind-rebel-lines.jpg' },

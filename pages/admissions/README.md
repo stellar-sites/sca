@@ -31,13 +31,12 @@ Applications may not be accepted due to lack of space, or if we are unable to pr
 A child must be three (3) years of age by September 30th to be eligible for the Pre-Kindergarten 3 class. Likewise a child must be four (4) years of age by September 30th to be eligible for the Pre-Kindergarten 4 class and five (5) years of age for the Kindergarten 5 class. Any child entering the Pre K program must be potty trained. The age determination date is considered flexible only in special circumstances to be decided by the Head of School in cooperation with the grade teacher. 
 
 ## Forms & Brochures
-* SCA Brochure
-* Pre-School Program
-* Admissions Application
-* Admissions Application-EForm
-* Tuition & Fees
-* School Calendar
-* Foundations & Frameworks
+* <a :href="$withBase('/assets/files/sca-brochure.pdf')" target="_blank">SCA Brochure</a>
+* <a :href="$withBase('/assets/files/sca-preschool.pdf')" target="_blank">Pre-School Program</a>
+* <a :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Admissions Application-EForm</a>
+* <a :href="$withBase('/assets/files/sca-tuition-fees.pdf')" target="_blank">Tuition & Fees</a>
+* <a :href="$withBase('/assets/files/sca-calendar.pdf')" target="_blank">School Calendar</a>
+* <a :href="$withBase('/assets/files/sca-foundations-frameworks.pdf')" target="_blank">Foundations & Frameworks</a>
 
 ::: tip Note: 
   See sidebar for dress code information and school handbooks.
@@ -45,7 +44,7 @@ A child must be three (3) years of age by September 30th to be eligible for the 
 
 ## Online Application
 
-Submit an application online by clicking here. Families without students presently enrolled in SCA will need to first register for a new family account by clicking the green Register button on this page.
+Submit an application online by <a :href="$page.links.sycamore" target="_blank">clicking here</a>. Families without students presently enrolled in SCA will need to first register for a new family account by clicking the green Register button on this page.
 FAST - Financial Aid ApplicationFinancial Aid Application
 
 Shrewsbury Christian Academy uses FAST (Financial Aid for School Tuition) by Independent School Management (ISM) for confidential & impartial processing of financial aid applications. For consideration of financial assistance, families must first submit an Admission Application, Registration Fees & be enrolled at SCA.
