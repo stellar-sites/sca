@@ -40,7 +40,7 @@ export default {
       default: 800
     }
   },
-  created () {
+  mounted () {
     setInterval(() => this.loaded = true, 800);
 //    Vue.LoadScript(FBOOK_SOURCE).then(() => this.loaded = true).catch((e) => console.warning("Could not load " + FBOOK_SOURCE + ": " + e));
   },
