@@ -1,6 +1,6 @@
 const path = require("path");
 
-var baseURL = process.env.NODE_ENV === 'production' ? '/sca/' : '/';
+var baseURL = process.env.BASE_URL || '/';
 var withBase = function (s) { return baseURL + s; }
 console.log('BaseURL: ' + baseURL);
 
