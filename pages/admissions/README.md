@@ -8,8 +8,6 @@
 ---
 # Admissions
 
-[Download Application](@assets/files/sca-application-eform.pdf)
-
 <a :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
 
 <hr>

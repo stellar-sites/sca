@@ -47,6 +47,7 @@ module.exports = {
     ]
   },
   extendPageData ($page) {
+    $page.principal = "Mrs. Debora Staff"
     $page.books = [
       { title: 'Basher Five-Two', link: 'basher-52.jpg' },
       { title: 'Behind Rebel Lines', link: 'behind-rebel-lines.jpg' },

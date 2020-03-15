@@ -12,7 +12,7 @@ We offer weekly enrichment classes to all students in kindergarten through grade
 # Pre-School (3 and 4 Year Old)
 
 ::: tip
-  To learn more out SCA's pre-school program, please [click here](assets/files/sca-preschool.pdf).
+  To learn more out SCA's pre-school program, please <a :href="$withBase('/assets/files/sca-preschool.pdf')">click here</a>.
 :::
 
 # Early Childhood (K – 2nd Grade)

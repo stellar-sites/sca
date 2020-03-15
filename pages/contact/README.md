@@ -16,7 +16,7 @@ Our school office hours are from 8:40 AM to 4:00 PM on Monday through Fridays du
 > Phone: (717) 235-5763
 > Fax: (717) 235-5357
 
-    Mrs. Christine Huffman, Principal: (717) 235-5763
+    {{ $page.principal }}, Principal: (717) 235-5763
     Mrs. Emily Feeser, Office Manager: (717) 235-5763
 
 
