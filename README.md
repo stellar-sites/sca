@@ -3,7 +3,7 @@
 ![Website scaonline.org](https://scaonline.org/websiteup.svg)
 ![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
 
-# Schrewsbury Christian Academy
+# Shrewsbury Christian Academy
 
 # What is this?
 This project contains the scaonline.org website and is all that's needed to modify it.
