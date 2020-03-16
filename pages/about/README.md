@@ -49,7 +49,6 @@ Shrewsbury Christian Academy partners with the home and church to provide an atm
 3. The student will be encouraged to make a personal commitment to Jesus Christ, honor Him as Lord and Savior, and seek to know and do the will of God.
 4. The student will formulate a personal Christian world/life view, which will be integrated into every area of life.
 
-
 ## Intellectual Development <Badge text="I Cor. 11:7" /><Badge text="2 Tim. 2:15" /><Badge text="Luke 2:52" /><Badge text="Deut. 6:4-9" />
 
 1. The student will learn the skills for effective critical thinking, comprehension, communication, and computation.
@@ -64,13 +63,11 @@ Shrewsbury Christian Academy partners with the home and church to provide an atm
 3. The student will understand the qualities of loyalty, enthusiasm, and discipline in building an effective team/group endeavor.
 4. The student will develop physical coordination and skillful use of the body.
 
-
 ## Emotional Stability <Badge text="Col. 4:5" /><Badge text="Gal. 5:22-23" />
 
 1. The student will learn to apply Biblical principles in handling failure, success, stress, and emotions.
 2. The student will know that each individual is a unique person of worth because each is a special creation of God and a recipient of His love.
 3. The student will learn to apply Biblical principles in developing and accepting a realistic, wholesome self-image.
-
 
 ## Social Maturity <Badge text="Matt. 5:13-16" /><Badge text="Psalm 133:1-3" /><Badge text="I John 1:7" />
 
@@ -87,8 +84,12 @@ It is a non-public, privately funded school which gives instruction in all subje
 
 The Word of God provides our answer:
 
-"And these words which I command you this day shall be upon your hearts and you shall teach them diligently to your children." Deuteronomy 6:6 & 7
-"Train up a child in the way he should go and when he is old he will not depart from it." Proverbs 22:6
+<Badge text="Deuteronomy 6:6 & 7" />
+> And these words which I command you this day shall be upon your hearts and you shall teach them diligently to your children. 
+
+<Badge text="Proverbs 22:6" />
+> Train up a child in the way he should go and when he is old he will not depart from it.
+
 A Christian school exists so that a child may be led into a close relationship with God through a sound educational program. Education must do more than prepare us for life on this earth; it must begin to develop in us a Biblical worldview by which we see God’s handiwork in all things.
 
 ## Why is a Christian School unique?
