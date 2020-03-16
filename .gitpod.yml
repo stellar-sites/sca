@@ -1,9 +1,11 @@
 tasks:
   - init: yarn global add vuepress
+    command: export PATH=$PATH:$HOME/.yarn/bin
+    command: cd pages/
     command: vuepress dev
 
 image: node:alpine
 
 ports:
   - port: 8080
-    onOpen: open-preview
+    onOpen: open-browser
