@@ -1,4 +1,7 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/taemon1337/sca)
+[![Build Status](https://travis-ci.org/taemon1337/sca.svg?branch=master)](https://travis-ci.org/taemon1337/sca)
+[![Website scaonline.org](https://img.shields.io/website-up-down-green-red/http/scaonline.org.svg)](https://scaonline.org/)
+![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
 
 # Schrewsbury Christian Academy
 
