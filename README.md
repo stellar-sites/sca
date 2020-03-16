@@ -8,6 +8,15 @@
 # What is this?
 This project contains the scaonline.org website and is all that's needed to modify it.
 
+# How this website is created and modified?
+This website is built using the following steps in a cycle:
+1. Create, Modify, or delete website content (GitPod)
+2. View changes in a live demo of the website (GitPod)
+3. Save and commit changes to Github (GitPod)
+4. [AUTO] Build the updated website with those changes (Travis CI)
+5. [AUTO] Deploy the updated website to hosting provider (Github Pages)
+6. Go back to step 1
+
 # Technology used
 This project uses the following technologies/services:
 
