@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - lts/*
 install:
-  - yarn global add vuepress
+  - yarn install
 script:
-  - cd $TRAVIS_BUILD_DIR/pages && vuepress build
+  - cd $TRAVIS_BUILD_DIR/pages && yarn docs:build
 deploy:
   provider: pages
   skip_cleanup: true

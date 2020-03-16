@@ -1,8 +1,7 @@
 tasks:
-  - command: cd pages/ && vuepress dev
+  - init: yarn install
 
-image:
-  file: .gitpod.Dockerfile
+image: node:alpine
 
 ports:
   - port: 8080
