@@ -1,4 +1,4 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/taemon1337/sca)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/stellar-sites/sca)
 [![Build Status](https://travis-ci.org/taemon1337/sca.svg?branch=master)](https://travis-ci.org/taemon1337/sca)
 [![Website scaonline.org](http://scaonline.org/websiteup.svg)](https://scaonline.org/)
 ![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
@@ -39,7 +39,7 @@ This project uses the following technologies/services:
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is a simple wikipedia style text format designed for web content.  Vuepress uses a mix of Markdown and VueJS (HTML/CSS/JS) for its websites.
 
 # How to make changes to SCA website?
-Click on the [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/taemon1337/sca) link to open a Gitpod IDE
+Click on the [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/stellar-sites/sca) link to open a Gitpod IDE
 
 ## Gitpod IDE
 The gitpod website that starts up should look like the following image:
