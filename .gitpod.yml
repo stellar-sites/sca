@@ -1,0 +1,8 @@
+tasks:
+  - init: yarn install
+
+image: node:alpine
+
+ports:
+  - port: 8080
+    onOpen: open-browser
