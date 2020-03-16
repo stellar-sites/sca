@@ -4,7 +4,7 @@ node_js:
 install:
   - yarn install
 script:
-  - cd $TRAVIS_BUILD_DIR/pages && yarn docs:build
+  - yarn docs:build
 deploy:
   provider: pages
   skip_cleanup: true

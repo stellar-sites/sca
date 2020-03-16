@@ -7,7 +7,7 @@ console.log('BaseURL: ' + baseURL);
 module.exports = {
   title: 'Shrewsbury Christian Academy',
   description: "Shrewsbury Christian Academy Online",
-  dest: '../docs',
+  dest: './docs',
   base: baseURL,
   plugins: {
     'vue-plugin-load-script': {},
