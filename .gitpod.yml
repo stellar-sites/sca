@@ -1,10 +1,8 @@
 tasks:
-  - init: yarn global add vuepress
-    command: export PATH=$PATH:$HOME/.yarn/bin
-    command: cd pages/
-    command: vuepress dev
+  - command: cd pages/ && vuepress dev
 
-image: node:alpine
+image:
+  file: .gitpod.Dockerfile
 
 ports:
   - port: 8080
