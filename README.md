@@ -1,8 +1,8 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/stellar-sites/sca)
-[![Build Status](https://travis-ci.org/stellar-sites/sca.svg?branch=master)](https://travis-ci.org/stellar-sites/sca)
 ![Website scaonline.org](https://scaonline.org/websiteup.svg)
-![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
 ![release](https://img.shields.io/github/v/release/stellar-sites/sca)
+[![Build Status](https://travis-ci.org/stellar-sites/sca.svg?branch=master)](https://travis-ci.org/stellar-sites/sca)
+![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/stellar-sites/sca)
 
 # Shrewsbury Christian Academy
 
