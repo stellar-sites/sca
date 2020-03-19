@@ -9,7 +9,7 @@ Shrewsbury Christian Academy is a non-denominational, community Christian school
 
 SCA is a 501(c)(3) nonprofit organization, and it is fully supported through the tuition which families pay as well as through generous donations from churches, businesses and individuals. Donations of materials, services, property, stock/bonds, and cash are always welcome. Donations are tax deductible to the extent granted by state and federal law.
 
-Since the school's founding as Christian School of Southern York County, the academically qualified teachers at SCA have been committed to investing in the lives of the students which we serve to help those students mature spiritually, academically, socially and physically.
+Since the school's founding as Christian School of Southern York County, <Photo :src="$withBase('/assets/img/sca_orig.jpg')" /> the academically qualified teachers at SCA have been committed to investing in the lives of the students which we serve to help those students mature spiritually, academically, socially and physically.
 
 Dallastown, Red Lion, South Eastern, South Western and Southern school districts within York county provide public school bus transportation to SCA students at no charge.
 
