@@ -3,8 +3,8 @@
   heroImage: 'assets/img/logo-big.jpg'
   heroText: Shrewsbury Christian Academy 
   tagline: Southern York County's preferred Christian based STEM school
-  actionText: Learn More →
-  actionLink: '/about/'
+  actionText: Apply Now for Fall 2020 →
+  actionLink: 'https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494'
   features:
   - title: Christian Principles
     details: Educating students in a Christian environment that reveals God’s ultimate purpose for their lives.
@@ -16,6 +16,15 @@
     © 2020 Christian School of Southern York County · dba Shrewsbury Christian Academy · a 501(c)(3) nonprofit organization
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.
 ---
+
+::: warning Notice
+Now Accepting Applications for Fall 2020
+<a href="https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494">Click Here!</a>
+:::
+
+::: warning COV-19 Notice
+Due to the recent
+:::
 
 # Welcome to Shrewsbury Christian Academy
 Located in Southern York County, Pennsylvania, Shrewsbury Christian Academy offers a Christ-centered education for preschool through eighth grade. We are an independent, non denominational Christian school which is solely funded through student tuition and donations from local businesses, churches, and individuals.
