@@ -17,13 +17,14 @@
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.
 ---
 
-::: warning Notice
+::: tip Register Now!
 Now Accepting Applications for Fall 2020
-<a href="https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494">Click Here!</a>
+<a class="nav-link external action-button" href="https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494">Click Here!</a>
 :::
 
-::: warning COV-19 Notice
-Due to the recent
+::: danger COVID-19 Notice
+Due to the recent DOVID-19 pandemic, schools in PA are closed (SCA follows Southern York County school district).  Classes are being held online periodically.
+See <a href="https://www.education.pa.gov/Schools/safeschools/emergencyplanning/COVID-19/Pages/default.aspx">this link</a> for PA COVID-19 information.
 :::
 
 # Welcome to Shrewsbury Christian Academy
