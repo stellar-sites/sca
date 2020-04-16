@@ -31,7 +31,7 @@ To apply for employment at Shrewsbury Christian Academy, please complete the app
 ## Music Teacher <Badge text="(Part Time)" />
 
 ::: details Show Details
-  Shrewsbury Christian is accepting applications from candidates for a Part-Time Music Teacher for the 2018-19 school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; a desire to teach Music in a classroom setting to Kindergarten through 8th grade; a desire to organize and implement two school music programs per school year; a desire to develop in each child a lifelong love of music; and a dedicated and enthusiastic love for training and educating children.
+  Shrewsbury Christian is accepting applications from candidates for a Part-Time Music Teacher for the {{ $page.current_year }} school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; a desire to teach Music in a classroom setting to Kindergarten through 8th grade; a desire to organize and implement two school music programs per school year; a desire to develop in each child a lifelong love of music; and a dedicated and enthusiastic love for training and educating children.
 
   A Bachelor's degree or teaching experience is required.
 
