@@ -15,7 +15,7 @@ To apply for employment at Shrewsbury Christian Academy, please complete the app
 ## Early Ed & Elementary Teachers <Badge text="(Full Time)" />
 
 ::: details Show Details
-  Shrewsbury Christian Academy is accepting applications from candidates for Early Education & Elementary School Teachers for the 2019-20 school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; experience teaching in early education/elementary grades; a desire to develop in each child a lifelong love of learning; and a dedicated and enthusiastic love for training and educating children.
+  Shrewsbury Christian Academy is accepting applications from candidates for Early Education & Elementary School Teachers for the {{ $page.current_year }} school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; experience teaching in early education/elementary grades; a desire to develop in each child a lifelong love of learning; and a dedicated and enthusiastic love for training and educating children.
 
   A Bachelor's degree is required.
 
@@ -47,7 +47,7 @@ To apply for employment at Shrewsbury Christian Academy, please complete the app
 ## PE Teacher <Badge text="(Part Time)" />
 
 ::: details Show Details
-  Shrewsbury Christian is accepting applications from candidates for a Part-Time Physical Education Teacher for the 2019-20 school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; a desire to teach Physical Education in the gymnasium or outdoor athletic field setting to PreSchool through 8th grade; a desire to develop in each child a lifelong love for physical exercise or athletics; and a dedicated and enthusiastic love for training and educating children.
+  Shrewsbury Christian is accepting applications from candidates for a Part-Time Physical Education Teacher for the {{ $page.current_year }} school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; a desire to teach Physical Education in the gymnasium or outdoor athletic field setting to PreSchool through 8th grade; a desire to develop in each child a lifelong love for physical exercise or athletics; and a dedicated and enthusiastic love for training and educating children.
 
   A Bachelor's degree or teaching experience is required.
 
@@ -64,7 +64,7 @@ To apply for employment at Shrewsbury Christian Academy, please complete the app
 ## Office Manager <Badge text="(Full Time)" />
 
 ::: details Show Details
-  Shrewsbury Christian Academy is accepting applications from candidates for an Office Manager Position Full Time for the 2019-2020 school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle. The office manager will support the students, parents, teachers, staff, and administration with the daily operation of the school. The position shall be wide, varied, and incorporate the roles of both receptionist and secretary as well as be responsible for implementing office operational procedures. The office manager must have a good working knowledge of school software, be willing to assist with ill students, playground & PE incidents, and any on campus injuries which occur. The candidate must be organized, a good planner, display great on-time performance, and perform all duties related to the office. The candidate must possess a dedication and enthusiastic love for children.
+  Shrewsbury Christian Academy is accepting applications from candidates for an Office Manager Position Full Time for the {{ $page.current_year }} school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle. The office manager will support the students, parents, teachers, staff, and administration with the daily operation of the school. The position shall be wide, varied, and incorporate the roles of both receptionist and secretary as well as be responsible for implementing office operational procedures. The office manager must have a good working knowledge of school software, be willing to assist with ill students, playground & PE incidents, and any on campus injuries which occur. The candidate must be organized, a good planner, display great on-time performance, and perform all duties related to the office. The candidate must possess a dedication and enthusiastic love for children.
 
   Office managerial experience is required.
 
@@ -80,7 +80,7 @@ To apply for employment at Shrewsbury Christian Academy, please complete the app
 ## Before & After School Student Care <Badge text="(Part Time)" />
 
 ::: details Show Details
-  Shrewsbury Christian is accepting applications from candidates for Part-Time Before & After School Student Care positions for the 2019-20 school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; a desire to help students PreSchool through 8th grade through a supervisory role before the school day has begun and after the school day has ended; a desire to assist students with homework as needed; and a dedicated and enthusiastic love for training and educating children.
+  Shrewsbury Christian is accepting applications from candidates for Part-Time Before & After School Student Care positions for the {{ $page.current_year }} school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; a desire to help students PreSchool through 8th grade through a supervisory role before the school day has begun and after the school day has ended; a desire to assist students with homework as needed; and a dedicated and enthusiastic love for training and educating children.
 
   Qualified, interested individuals should send a cover letter, resume, references, transcripts copy, and a handwritten testimony of your personal faith in Jesus Christ via mail or email to:
 
