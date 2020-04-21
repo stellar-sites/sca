@@ -11,7 +11,8 @@ module.exports = {
   base: baseURL,
   plugins: {
     'vue-plugin-load-script': {},
-    'seo': {}
+    'seo': {},
+    'tabs': {}
   },
   themeConfig: {
     logo: '/assets/img/logo.jpg',
@@ -25,6 +26,7 @@ module.exports = {
       { text: 'Admissions', link: '/admissions/' },
       { text: 'Tuition', link: '/tuition/' },
       { text: 'Academics', link: '/academics/' },
+      { text: 'STEM', link: '/stem/' },
       { text: 'Events', link: '/events/' },
       { text: 'Contact', link: '/contact/' },
       {

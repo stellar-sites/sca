@@ -8,7 +8,10 @@
 ---
 # Admissions
 
-<a :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
+## Apply Now
+To Apply, just fill out the following form and submit or email to apply@scaonline.org
+
+<a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
 
 <hr>
 

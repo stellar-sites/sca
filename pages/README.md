@@ -18,8 +18,9 @@
 ---
 
 ::: tip Register Now!
-Now Accepting Applications for Fall 2020
-<a class="nav-link external action-button" href="https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494">Click Here!</a>
+Now Accepting Applications for Fall 2020. 
+<a class="nav-link external action-button" href="https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494">Register Online</a>
+or <a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
 :::
 
 ::: danger COVID-19 Notice
