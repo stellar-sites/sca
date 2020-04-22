@@ -1,6 +1,7 @@
 <template>
-    <span class="inline">
+    <span :class="klass">
         <img :src="src" :width="width" :height="height" :style="{float: float}" />
+        <br>
     </span>
 </template>
 <script>
@@ -12,16 +13,20 @@ export default {
             required: true
         },
         width: {
-            type: Number,
+            type: String,
             default: null
         },
         height: {
-            type: Number,
+            type: String,
             default: null
         },
         float: {
             type: String,
             default: "right"
+        },
+        klass: {
+            type: String,
+            default: "inline"
         }
     }
 }
@@ -29,5 +34,15 @@ export default {
 <style>
 .inline img {
     padding: 15px;
+}
+.block img {
+    padding: 15px;
+    margin: 15px;
+}
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 </style>

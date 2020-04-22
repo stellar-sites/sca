@@ -54,6 +54,15 @@ module.exports = {
     $page.links = {
       sycamore: "https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494"
     }
+    $page.github = {
+        owner: "stellar-sites",
+        repo: "sca",
+        assignee: 'taemon1337',
+        auth: {
+            id: "Iv1.f95a79a11a564c2c",
+            privateKey: "e2e1d9d3c25a4d6d80be63c1860f9fdbe7099b33"
+        }
+    }
     $page.books = [
       { title: 'Basher Five-Two', link: 'basher-52.jpg' },
       { title: 'Behind Rebel Lines', link: 'behind-rebel-lines.jpg' },
