@@ -18,7 +18,7 @@ Highlights of the program include:
 We augment the typical textbook instruction with the materials provided by the York County Envirothon program.  
 The instruction reveals the wonders of God's creation with a combination of classroom instruction and hands-on learning.
 <br>
-<Photo :src="$withBase('/assets/img/lab.jpg')" width="50%" klass="center" float="center" />
+<Photo :src="$withBase('/assets/img/enviroteam.jpg')" width="50%" klass="center" float="center" />
 Shrewsbury Christian Academy's Envirothon teams have regularly won awards at the Annual York County competition with 30+ schools competing. 
 :::
 
@@ -93,8 +93,7 @@ Our students apply the skills they learned in physics to design and build their 
 ## Robotics
 Our students apply the skills they learned to design, build, and program robots using kit systems such as:  
   <a href="https://www.birdbraintechnologies.com/" target="_blank">Hummingbird from Birdbrain Technologies</a>, LittleBits and <a href="https://sphero.com/pages/activities" target="_blank">Sphero</a>.
-
-<Photo :src="$withBase('/assets/img/hummingbird.webp')" width="50%" klass="center" float="center" />
+  <iframe src="https://drive.google.com/file/d/1x5H8yDt410cy1iVpO_18Wqwr-DTcAIHA/preview" width="640" height="480"></iframe>
 
 # Mathematics
 All grade levels learn appropriate grade-level mathematics skills.  Students apply these skills in their Technology, Science, and Engineering-related instruction and projects.  The curriculum is design so that students matriculating from Grade 8 to High School have the background needed to transition to high school Algebra. 
