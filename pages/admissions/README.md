@@ -9,7 +9,7 @@
 # Admissions
 
 ## Apply Now
-To Apply, just fill out the following form and submit or email to apply@scaonline.org
+To Apply, please fill out the following form and email to <a href="mailto:apply@scaonline.org?subject=AdmissionApplication">apply@scaonline.org</a>  
 
 <a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
 
@@ -44,13 +44,4 @@ A child must be three (3) years of age by September 30th to be eligible for the 
 ::: tip Note: 
   See sidebar for dress code information and school handbooks.
 ::: 
-
-## Online Application
-
-Submit an application online by <a :href="$page.links.sycamore" target="_blank">clicking here</a>. Families without students presently enrolled in SCA will need to first register for a new family account by clicking the green Register button on this page.
-FAST - Financial Aid ApplicationFinancial Aid Application
-
-Shrewsbury Christian Academy uses FAST (Financial Aid for School Tuition) by Independent School Management (ISM) for confidential & impartial processing of financial aid applications. For consideration of financial assistance, families must first submit an Admission Application, Registration Fees & be enrolled at SCA.
-
-Go to the FAST website to begin the application. Download an informational pdf about FAST.
 

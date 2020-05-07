@@ -4,7 +4,7 @@
   heroText: Shrewsbury Christian Academy 
   tagline: Southern York County's preferred Christian based STEM school
   actionText: Apply Now for Fall 2020 →
-  actionLink: 'https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494'
+  actionLink: "/admissions/"
   features:
   - title: Christian Principles
     details: Educating students in a Christian environment that reveals God’s ultimate purpose for their lives.
@@ -19,8 +19,7 @@
 
 ::: tip Register Now!
 Now Accepting Applications for Fall 2020. 
-<a class="nav-link external action-button" href="https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494">Register Online</a>
-or <a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
+<a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
 ::: danger COVID-19 Notice
