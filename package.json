@@ -12,6 +12,7 @@
   "devDependencies": {
     "@octokit/auth-app": "^2.4.5",
     "@octokit/rest": "^17.5.1",
+    "@vuepress/plugin-google-analytics": "^1.4.1",
     "vuepress": "^1.4.0"
   }
 }

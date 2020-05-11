@@ -11,6 +11,7 @@ module.exports = {
   base: baseURL,
   plugins: {
     'vue-plugin-load-script': {},
+    '@vuepress/google-analytics': {'ga': 'UA-166125087-1' },
     'seo': {},
     'tabs': {}
   },
