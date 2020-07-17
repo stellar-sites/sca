@@ -22,9 +22,12 @@ Now Accepting Applications for Fall 2020.
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
+::: tip Reduced Tuition Coming Soon!
+  New <b>lower</b> tuition rates will be announced shortly, please check back for details!
+:::
+
 ::: danger COVID-19 Notice
-Due to the recent DOVID-19 pandemic, schools in PA are closed (SCA follows Southern York County school district).  Classes are being held online periodically.
-See <a href="https://www.education.pa.gov/Schools/safeschools/emergencyplanning/COVID-19/Pages/default.aspx">this link</a> for PA COVID-19 information.
+  Shrewsbury Christian Academy is currently preparing the state mandated Covid-19 school plan for the 2020/2021 school year which will closely follow the Southern York County school district's plan. 
 :::
 
 # Welcome to Shrewsbury Christian Academy

@@ -3,6 +3,11 @@
 ---
 # Tuition & Fees: 2019-2020
 
+::: tip Reduced Tuition Coming Soon!
+  New <b>lower</b> tuition rates will be announced shortly, please check back for details!
+:::
+
+
 As an independent, non denominational Christian school, Shrewsbury Christian Academy is primarily supported through the tuition which families pay as well as through donations from churches, businesses and individuals. As a nonprofit community Christian school, SCA relies largely on tuition income for operational costs and faculty/staff salaries.
 
 SCA is overseen by a school board consisting of parents and local business people who carefully determine the yearly tuition rates based on projected yearly expenditures.
@@ -20,14 +25,6 @@ Registration Fees (after March 23, 2019)
     Per Student (PreK3 & PreK4): $125
     Per Student (K5-8th Grade): $325
     Maximum per Family: $600
-
-::: tip notice
-  Registration fees help cover the costs of enrollment processing, buying expendable supplies, purchasing textbooks, etc. Registration Fees are non-refundable and cannot be transferred to tuition.
-:::
-
-::: tip
-  For current families, Registration Fees are due by May 31, 2019, or at the time of re-enrollment. For new families, Registration Fees are due at the time of enrollment.
-::: 
 
 ## Tuition
 Pre-K3 2 Day Program 1/2 Day (Tues & Thurs mornings)

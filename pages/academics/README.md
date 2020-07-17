@@ -20,7 +20,7 @@ We offer weekly enrichment classes to all students in kindergarten through grade
 Students receive direct Bible instruction, even though biblical principles are integrated throughout the day. Students study God’s Word, memorize Scripture and learn to apply God’s instruction to their own lives. Teachers use the Positive Action for Christ curriculum as a framework.
 
 ### Language Arts
-SCA combines a strong phonics program with elements of whole language while using strategies that are rich in a variety of literature and creative writing experiences which we believe to be the best approach to teaching reading. Students in the first grade (2nd semester), second grade, and third grade receive reading instruction through the Foundations & Frameworks reading program.  Foundations & Frameworks is an instructional reading program that uses quality literature to address the following elements of reading: vocabulary, fluency and reading comprehension.
+SCA combines a strong phonics program with elements of whole language while using strategies that are rich in a variety of literature and creative writing experiences which we believe to be the best approach to teaching reading.
 
 Invented spelling is encouraged in kindergarten where students apply their knowledge of phonics. Kindergartners also use sight word lists, charts and graphic organizers to help them spell words. Formal spelling instruction begins in first grade. Children learn spelling rules, develop good study habits and practice dictionary skills.
 
@@ -57,8 +57,6 @@ The fourth grade focus is on the life of Jesus Christ, the work of the Holy Spir
 The fifth grade curriculum is a survey of the Old Testament.  Children learn that just as God desired His people to possess the land of Canaan, so He desires His children to live a life of promise and victory.
 
 ### Language Arts
-Students in third, fourth and fifth grades receive reading instruction through the Foundations & Frameworks reading program.  Foundations & Frameworks is an instructional reading program that uses quality literature to address the following elements of reading: vocabulary, fluency and reading comprehension.
-
 Through the use of the five stages of the writing process, students are encouraged to express their thoughts clearly to their intended audience. Students write for different purposes as they demonstrate the proper use of grammar use and word usage. Other elements of grammar are practiced and reviewed daily.
 
 Elementary students receive formal spelling instruction five days a week. The spelling program helps students increase their spelling capacity, in addition to building vocabulary and study skills. Book reports are written quarterly.
@@ -91,8 +89,6 @@ Sixth grade students take an in depth look at the 400 year "period of judges".  
 A worldview is an overall perspective from which one sees and interprets the world.  At Shrewsbury Christian Academy, we teach from a Biblical worldview striving to equip our students to be confident and grounded in the Christian faith.  This focus is especially important in the middle school grades.  The 7th grade Bible curriculum To the Ends of the Earth is designed to teach principles for Christian living from the primitive church as recorded in the books of Acts, and the 8th grade Bible curriculum Lightbearers is designed to help students clearly understand the tenets of the Christian worldview and how they compare to the tenets of the leading postmodern worldviews of our day.  Students will learn how to apply their Christian faith to every area of life: theology, philosophy, ethics, biology, sociology, law, politics, economics and history.
 
 ### Literature
-Middle school students receive reading instruction through the Foundations & Frameworks reading program.  Foundations & Frameworks is an instructional reading program that uses quality literature to address the five elements of reading: phonemic awareness, phonics, vocabulary, fluency and reading comprehension.
-
 The middle school literature curriculum enables students to reflect upon ideas, events, people, culture, and history in light of God’s Word and purposes for the world.  Vocabulary word lists are elicited from the literature selections that help students understand appropriate and orderly uses of and an appreciation of language. Below are some sample  novels read in middle school.
 
 ## Middle School Novels
