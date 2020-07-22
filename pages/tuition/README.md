@@ -3,8 +3,8 @@
 ---
 # Tuition & Fees: 2019-2020
 
-::: tip Reduced Tuition Coming Soon!
-  New <b>lower</b> tuition rates will be announced shortly, please check back for details!
+::: tip Reduced Tuition Are Here!
+  New <b>lower</b> tuition rates have just been announced, please see below for details!
 :::
 
 
@@ -12,95 +12,32 @@ As an independent, non denominational Christian school, Shrewsbury Christian Aca
 
 SCA is overseen by a school board consisting of parents and local business people who carefully determine the yearly tuition rates based on projected yearly expenditures.
 
-<a :href="$withBase('/assets/files/sca-tuition-fees.pdf')" target="_blank">Download the Tuition & Fees PDF.</a>
-
-Discounted Early Registration Fees (now through March 23, 2019)
-
-    Per Student (PreK3 & PreK4): $75
-    Per Student (K5-8th Grade): $250
-    Maximum per Family: $500
-
-Registration Fees (after March 23, 2019)
-
+### Registration Fees
     Per Student (PreK3 & PreK4): $125
-    Per Student (K5-8th Grade): $325
-    Maximum per Family: $600
+    Per Student (K5-8th Grade): $250
+    Maximum per Family: $375
 
 ## Tuition
-Pre-K3 2 Day Program 1/2 Day (Tues & Thurs mornings)
 
-    Annual Total: $995
-    2 Payment Plan: $498/payment
-    10 Month Plan: $100/month
-    12 Month Plan: $83/month
+### Pre-K4 5 Day Program Full Day (Mon-Fri full day)
+    Annual Total: will be updated soon
 
-Pre-K3 2 Day Program Full Day (Tues & Thurs full day)
 
-    Annual Total: $1997
-    2 Payment Plan: $999/payment
-    10 Month Plan: $200/month
-    12 Month Plan: $167/month
+### K5 1/2 Day Program (Mon-Fri)
+    Annual Total: will be updated soon
 
-Pre-K4 3 Day Program 1/2 Day (Mon, Wed & Fri mornings)
+### K5 Full Day Program (Mon- Fri)
+    Annual Total: $3,995
+    2 Payment Plan: $1,997.50/payment
+    10 Month Plan: $399.50/month
+    12 Month Plan: $332.92/month
 
-    Annual Total: $1,475
-    2 Payment Plan: $738/payment
-    10 Month Plan: $148/month
-    12 Month Plan: $123/month
 
-Pre-K4 3 Day Program Full Day (Mon, Wed & Fri full day)
-
-    Annual Total: $2,995
-    2 Payment Plan: $1,498/payment
-    10 Month Plan: $300/month
-    12 Month Plan: $250/month
-
-Pre-K4 5 Day Program 1/2 Day (Mon-Fri mornings)
-
-    Annual Total: $2,497
-    2 Payment Plan: $1,249/payment
-    10 Month Plan: $250/month
-    12 Month Plan: $209/month
-
-Pre-K4 5 Day Program Full Day (Mon-Fri full day)
-
-    Annual Total: $4,995
-    2 Payment Plan: $2,498/payment
-    10 Month Plan: $500/month
-    12 Month Plan: $417/month
-
-K5 1/2 Day Program (Mon-Fri)
-
-    Annual Total: $3,597
-    2 Payment Plan: $1,799/payment
-    10 Month Plan: $360/month
-    12 Month Plan: $300/month
-
-K5 Full Day Program (Mon- Fri)
-
-    Annual Total: $5,995
-    2 Payment Plan: $2,998/payment
-    10 Month Plan: $600/month
-    12 Month Plan: $500/month
-
-1st - 8th Grade
-
-    Annual Total: $5,995
-    2 Payment Plan: $2,998/payment
-    10 Month Plan: $600/month
-    12 Month Plan: $500/month
-
-Multi Child Discounts: K5 Full day- 8th Grade
-
-    1st child = 100% of Tuition
-    2nd child = 75% of Tuition
-    3rd child = 50% of Tuition
-    4th child = 25% of Tuition
-    The 5th child or more enrolled from one family will be granted free tuition.
-
-::: tip
-  Pre-K3, Pre-K4 and Half-day K5 Programs are not included in the multi child discount.
-:::
+### 1st - 8th Grade
+    Annual Total: $3,995
+    2 Payment Plan: $1,997.50/payment
+    10 Month Plan: $399.50/month
+    12 Month Plan: $332.92/month
 
 # Additional Fees
 

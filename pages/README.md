@@ -22,8 +22,8 @@ Now Accepting Applications for Fall 2020.
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
-::: tip Reduced Tuition Coming Soon!
-  New <b>lower</b> tuition rates will be announced shortly, please check back for details!
+::: tip Reduced Tuition Are Here!
+  New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
 :::
 
 ::: danger COVID-19 Notice
