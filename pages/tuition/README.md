@@ -19,13 +19,6 @@ SCA is overseen by a school board consisting of parents and local business peopl
 
 ## Tuition
 
-### Pre-K4 5 Day Program Full Day (Mon-Fri full day)
-    Annual Total: will be updated soon
-
-
-### K5 1/2 Day Program (Mon-Fri)
-    Annual Total: will be updated soon
-
 ### K5 Full Day Program (Mon- Fri)
     Annual Total: $3,995
     2 Payment Plan: $1,997.50/payment
@@ -38,6 +31,13 @@ SCA is overseen by a school board consisting of parents and local business peopl
     2 Payment Plan: $1,997.50/payment
     10 Month Plan: $399.50/month
     12 Month Plan: $332.92/month
+
+### Pre-K4 5 Day Program Full Day (Mon-Fri full day)
+    Annual Total: will be updated soon
+
+
+### K5 1/2 Day Program (Mon-Fri)
+    Annual Total: will be updated soon
 
 # Additional Fees
 
