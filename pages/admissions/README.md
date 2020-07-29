@@ -37,9 +37,7 @@ A child must be three (3) years of age by September 30th to be eligible for the 
 * <a :href="$withBase('/assets/files/sca-brochure.pdf')" target="_blank">SCA Brochure</a>
 * <a :href="$withBase('/assets/files/sca-preschool.pdf')" target="_blank">Pre-School Program</a>
 * <a :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Admissions Application-EForm</a>
-* <a :href="$withBase('/assets/files/sca-tuition-fees.pdf')" target="_blank">Tuition & Fees</a>
 * <a :href="$withBase('/assets/files/sca-calendar.pdf')" target="_blank">School Calendar</a>
-* <a :href="$withBase('/assets/files/sca-foundations-frameworks.pdf')" target="_blank">Foundations & Frameworks</a>
 
 ::: tip Note: 
   See sidebar for dress code information and school handbooks.
