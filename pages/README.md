@@ -22,7 +22,7 @@ The official first day of school is September 8th, 2020, registration still avai
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
-::: tip Reduced Tuition Are Here!
+::: tip Reduced Tuition Rates Are Here!
   New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
 :::
 
