@@ -17,8 +17,8 @@
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.
 ---
 
-::: tip Register Now!
-Now Accepting Applications for Fall 2020. 
+::: tip School Start Date Scheduled!
+The official first day of school is September 8th, 2020, registration still available!
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
