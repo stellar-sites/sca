@@ -17,6 +17,8 @@
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.
 ---
 
+<TipBar>
+
 ::: tip School Start Date Scheduled!
 The official first day of school is September 8th, 2020, registration still available!
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
@@ -28,12 +30,14 @@ Interested families should email <a href="mailto:office@SCAonline.org">office@SC
 :::
 
 ::: tip Reduced Tuition Rates Are Here!
-  New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
+New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
 :::
 
 ::: danger COVID-19 Notice
-  Shrewsbury Christian Academy is currently preparing the state mandated Covid-19 school plan for the 2020/2021 school year which will closely follow the Southern York County school district's plan. 
+Shrewsbury Christian Academy is currently preparing the state mandated Covid-19 school plan for the 2020/2021 school year which will closely follow the Southern York County school district's plan. 
 :::
+
+</TipBar>
 
 # Welcome to Shrewsbury Christian Academy
 Located in Southern York County, Pennsylvania, Shrewsbury Christian Academy offers a Christ-centered education for preschool through eighth grade. We are an independent, non denominational Christian school which is solely funded through student tuition and donations from local businesses, churches, and individuals.
