@@ -12,14 +12,13 @@ Our school office hours are from 8:40 AM to 4:00 PM on Monday through Fridays du
 > 701 Windy Hill Rd, New Freedom, PA 17349
 
 ## Telephone & Fax
-
-> Phone: (717) 235-5763
+> Phone: (717) 235-5763 <br>
 > Fax: (717) 235-5357
 
-    {{ $page.principal }}, Principal: (717) 235-5763
-    Office Managers: (717) 235-5763
+## Email
+> Email: <a href="mailto:office@scaonline.org">office@scaonline.org</a>
 
-
+## Map
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1533.8523126658358!2d-76.66371202579502!3d39.74628534654715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb24dba6d4e7b1b3!2sShrewsbury%20Christian%20Academy!5e0!3m2!1sen!2sus!4v1584024250903!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
