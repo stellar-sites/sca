@@ -21,9 +21,4 @@ All students are encouraged to attend worship and Sunday school with their famil
 <br>
 
 ## School Lunch Schedule
-
-* Monday: Chick-fil-A
-* Tuesday: Subway
-* Wednesday: Chick-fil-A
-* Thursday: Subway
-* Friday: Papa John's
+    Check back soon.

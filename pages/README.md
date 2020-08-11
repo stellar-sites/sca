@@ -22,6 +22,11 @@ The official first day of school is September 8th, 2020, registration still avai
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
+::: tip Kindergarten is full!
+Registration for Kindergarten is complete and other grades are filling up, please apply now!
+Interested families should email <a href="mailto:office@SCAonline.org">office@SCAonline.org</a> for a tour.
+:::
+
 ::: tip Reduced Tuition Rates Are Here!
   New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
 :::

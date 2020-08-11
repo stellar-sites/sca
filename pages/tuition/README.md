@@ -1,7 +1,7 @@
 ---
   title: Tuition
 ---
-# Tuition & Fees: 2019-2020
+# Tuition & Fees: {{ $page.current_year }}
 
 ::: tip Reduced Tuition Are Here!
   New <b>lower</b> tuition rates have just been announced, please see below for details!
@@ -12,32 +12,22 @@ As an independent, non denominational Christian school, Shrewsbury Christian Aca
 
 SCA is overseen by a school board consisting of parents and local business people who carefully determine the yearly tuition rates based on projected yearly expenditures.
 
-### Registration Fees
-    Per Student (PreK3 & PreK4): $125
-    Per Student (K5-8th Grade): $250
-    Maximum per Family: $375
-
 ## Tuition
 
-### K5 Full Day Program (Mon- Fri)
-    Annual Total: $3,995
-    2 Payment Plan: $1,997.50/payment
-    10 Month Plan: $399.50/month
-    12 Month Plan: $332.92/month
+| Grades        | Days           | Annual Total  | Registration Fee |
+| ------------- |:-------------:| -----:| -----:|
+| Pre-K3  | Tues & Thurs (1/2 day) | $995 | $75 |
+| Pre-K3  | Tues & Thurs (full day) | $1,997 | $75 |
+| Pre-K4  | Mon, Wed, Fri (1/2 day) | $1,475 | $75 |
+| Pre-K4  | Mon, Wed, Fri (full day) | $2,995 | $75 |
+| Pre-K4  | Mon - Fri (1/2 day) | $2,497 | $75 |
+| Pre-K4  | Mon - Fri (full day) | $3,995 | $75 |
+| K5      | Mon - Fri (full day) | $3,995 | $250 |
+| 1st - 8th  | Mon - Fri (full day) | $3,995 | $250 |
 
-
-### 1st - 8th Grade
-    Annual Total: $3,995
-    2 Payment Plan: $1,997.50/payment
-    10 Month Plan: $399.50/month
-    12 Month Plan: $332.92/month
-
-### Pre-K4 5 Day Program Full Day (Mon-Fri full day)
-    Annual Total: will be updated soon
-
-
-### K5 1/2 Day Program (Mon-Fri)
-    Annual Total: will be updated soon
+::: tip Note
+Maximum registration fee per family is $375.
+:::
 
 # Additional Fees
 
