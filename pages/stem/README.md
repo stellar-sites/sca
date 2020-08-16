@@ -86,6 +86,13 @@ The goals of the course are:
 # Engineering
 Engineering is woven into the Science and Technology curricula at SCA.  Both programs offer Middle School students the opportunity to use their God-given creativity along with the skills they have learned in Science and Technology to design and build machines and demonstrate them. 
 
+### New for 2020-21 school year
+    Grades 1 to 4:  Introduction to 3-D printing
+
+    Grades 5 to 8:  3-D design and printing with the MakerBot SKETCH 3-D printer!!! 
+
+<Photo href="https://www.makerbot.com/" :src="$withBase('/assets/img/makerbot.jpg')" width="50%" klass="center" float="center" />
+
 ## Annual Egg-Drop Event
 Our students apply the skills they learned in physics to design and build their own protective devices to prevent an egg from breaking when dropped from the top of the long ladder on the Shrewsbury Fire Company Ladder Truck.   
 <Photo :src="$withBase('/assets/img/firedrop.jpg')" width="50%" klass="center" float="center" />

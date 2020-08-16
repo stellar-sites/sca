@@ -1,6 +1,9 @@
 <template>
     <span :class="klass">
-        <img :src="src" :width="width" :height="height" :style="{float: float}" />
+        <a v-if="href" :href="href" target="_blank">
+            <img :src="src" :width="width" :height="height" :style="{float: float}" />
+        </a>
+        <img v-else :src="src" :width="width" :height="height" :style="{float: float}" />
         <br>
     </span>
 </template>
@@ -27,6 +30,10 @@ export default {
         klass: {
             type: String,
             default: "inline"
+        },
+        href: {
+            type: String,
+            default: ""
         }
     }
 }
