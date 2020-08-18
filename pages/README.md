@@ -24,8 +24,8 @@ The official first day of school is September 8th, 2020, registration still avai
 <a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
 :::
 
-::: tip Kindergarten & 1st Grade are full!
-Registrations for Kindergarten and 1st grade are now full and waitlists are available for both.
+::: warning Kindergarten, 1st, 5th, 6th are full!
+Registrations for Kindergarten, 1st, 5th, and 6th grades are now full and waitlists are now in effect.
 Interested families should email <a href="mailto:office@SCAonline.org">office@SCAonline.org</a> for a tour.
 :::
 
