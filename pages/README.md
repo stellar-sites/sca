@@ -34,7 +34,7 @@ New <b>lower</b> tuition rates have just been announced, click <a :href="$withBa
 :::
 
 ::: danger COVID-19 Notice
-Shrewsbury Christian Academy is currently preparing the state mandated Covid-19 school plan for the 2020/2021 school year which will closely follow the Southern York County school district's plan. 
+See Shrewsbury Christian Academy's <a :href="$withBase('/assets/files/sca-covid-plan.pdf')" target="_blank">COVID-19 Health and Safety Plan</a> for details on how SCA is planning to open safely for students and staff by clicking <a :href="$withBase('/assets/files/sca-covid-plan.pdf')" target="_blank">here</a>.
 :::
 
 </TipBar>
