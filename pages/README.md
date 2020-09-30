@@ -17,17 +17,11 @@
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.
 ---
 
+::: warning E-Funds
+Electronic payments can be made at <a href="https://eps.mvpbanking.com/cgi-bin/efs/login.pl?access=55719" target="_blank">E-Funds</a>, please click <a href="https://eps.mvpbanking.com/cgi-bin/efs/login.pl?access=55719" target="_blank">here</a>.
+:::
+
 <TipBar>
-
-::: tip School Start Date Scheduled!
-The official first day of school is September 8th, 2020, registration still available!
-<a class="nav-link external action-button" :href="$withBase('/admissions/')">Click to apply</a>
-:::
-
-::: warning Kindergarten, 1st, 5th, 6th are full!
-Registrations for Kindergarten, 1st, 5th, and 6th grades are now full and waitlists are now in effect.
-Interested families should email <a href="mailto:office@SCAonline.org">office@SCAonline.org</a> for a tour.
-:::
 
 ::: tip Reduced Tuition Rates Are Here!
 New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
