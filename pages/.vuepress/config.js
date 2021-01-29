@@ -35,7 +35,8 @@ module.exports = {
         ariaLabel: '',
         items: [
           { text: 'Employment', link: '/employment/' },
-          { text: 'Support', link: '/support/' }
+          { text: 'Support', link: '/support/' },
+          { text: 'Site Issues', link: '/issues/'}
         ]
       },
       { 
