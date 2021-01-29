@@ -23,7 +23,7 @@ Electronic payments can be made at <a href="https://eps.mvpbanking.com/cgi-bin/e
 
 <TipBar>
 
-::: tip Reduced Tuition Rates Are Here!
+::: tip Updated Tuition Rates Are Here!
 {{ $page.current_year }} Tuition and Fee schedules are now available click <a :href="$withBase('/tuition/')">here</a> for details!
 :::
 
