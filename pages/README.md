@@ -3,7 +3,7 @@
   heroImage: 'assets/img/logo-big.jpg'
   heroText: Shrewsbury Christian Academy 
   tagline: Southern York County's preferred Christian based STEM school
-  actionText: Apply Now for Fall 2020 →
+  actionText: Apply Now for Fall 2021 →
   actionLink: "/admissions/"
   features:
   - title: Christian Principles
@@ -24,7 +24,7 @@ Electronic payments can be made at <a href="https://eps.mvpbanking.com/cgi-bin/e
 <TipBar>
 
 ::: tip Reduced Tuition Rates Are Here!
-New <b>lower</b> tuition rates have just been announced, click <a :href="$withBase('/tuition/')">here</a> for details!
+{{ $page.current_year }} Tuition and Fee schedules are now available click <a :href="$withBase('/tuition/')">here</a> for details!
 :::
 
 ::: danger COVID-19 Notice

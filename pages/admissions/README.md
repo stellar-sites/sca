@@ -1,18 +1,9 @@
----
-  title: Admissions
-  hero: true
-  heroText: Shrewsbury Christian Academy 
-  tagline: To Apply, just fill out the following form and submit or email to admin@scaonline.org
-  actionText: Download Application →
-  actionLink: 'assets/files/sca-application-eform.pdf'
----
 # Admissions
 
 ## Apply Now
-To Apply, please fill out the following form and email to <a href="mailto:apply@scaonline.org?subject=AdmissionApplication">apply@scaonline.org</a>  
+Open Enrollment for the {{ $page.current_year }} school year starts Feb 13.  Contact <a href="mailto:office@scaonline.org">office@scaonline.org</a> for details.
 
-<a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a>
-
+<!-- <a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a> -->
 <hr>
 
 If you have questions at any time regarding the admissions process for Shrewsbury Christian Academy, please call the office at (717) 235-5763 or submit our online contact form to request one of our staff to assist you.
@@ -36,7 +27,6 @@ A child must be three (3) years of age by September 30th to be eligible for the 
 ## Forms & Brochures
 * <a :href="$withBase('/assets/files/sca-brochure.pdf')" target="_blank">SCA Brochure</a>
 * <a :href="$withBase('/assets/files/sca-preschool.pdf')" target="_blank">Pre-School Program</a>
-* <a :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Admissions Application-EForm</a>
 * <a :href="$withBase('/assets/files/sca-calendar.pdf')" target="_blank">School Calendar</a>
 
 ::: tip Note: 
