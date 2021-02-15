@@ -1,12 +1,10 @@
 # Admissions
 
 ## Apply Now
-Open Enrollment for the {{ $page.current_year }} school year starts Feb 13.  Contact <a href="mailto:office@scaonline.org">office@scaonline.org</a> for details.
+Contact <a href="mailto:office@scaonline.org">office@scaonline.org</a> for admission inquiries.
 
 <!-- <a class="nav-link external action-button" :href="$withBase('/assets/files/sca-application-eform.pdf')" target="_blank">Download Application Form</a> -->
 <hr>
-
-If you have questions at any time regarding the admissions process for Shrewsbury Christian Academy, please call the office at (717) 235-5763 or submit our online contact form to request one of our staff to assist you.
 
 # Admissions Policy
 
