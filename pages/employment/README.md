@@ -38,11 +38,11 @@ Shrewsbury Christian Academy is accepting applications from candidates for a Thi
 
   Qualified, interested individuals should download a Teacher Application (above) and send it along with a cover letter, resume, references, transcripts copy, and a handwritten testimony of your personal faith in Jesus Christ via mail or email to:
 
-      Principal
-      Shrewsbury Christian Academy
-      701 Windy Hill Road
-      New Freedom, PA 17349
-      principal@scaonline.org
+    {{ $page.principal }}, Principal
+    Shrewsbury Christian Academy
+    701 Windy Hill Road
+    New Freedom, PA 17349
+    principal@scaonline.org
 :::
 
 ## Middle School with a focus on English <Badge text="(Full Time)" />
