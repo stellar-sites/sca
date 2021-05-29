@@ -29,20 +29,12 @@ Qualified, interested individuals should send a cover letter, resume, references
 
 
 
-## Third Grade <Badge text="(Full Time)" />
+## Physical Education <Badge text="(Part Time)" />
 
 :::details Show Details
-Shrewsbury Christian Academy is accepting applications from candidates for a Third Grade Teachers for the 2021-2022 school year. Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; experience teaching in early education/elementary grades; a desire to develop in each child a lifelong love of learning; and a dedicated and enthusiastic love for training and educating children.
-
-  A Bachelor's degree is required.
-
-  Qualified, interested individuals should download a Teacher Application (above) and send it along with a cover letter, resume, references, transcripts copy, and a handwritten testimony of your personal faith in Jesus Christ via mail or email to:
-
-    {{ $page.principal }}, Principal
-    Shrewsbury Christian Academy
-    701 Windy Hill Road
-    New Freedom, PA 17349
-    principal@scaonline.org
+  Shrewsbury Christian Academy is accepting applications from candidates for a Part-Time Physical Education Teacher for the 2021-2022 school year. 
+  
+  Candidates must possess a strong personal faith in Christ, as evidenced by their lifestyle; experience teaching in early education/elementary grades; a desire to develop in each child a lifelong love of learning; and a dedicated and enthusiastic love for training and educating children.
 :::
 
 ## Middle School with a focus on English <Badge text="(Full Time)" />
