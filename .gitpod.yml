@@ -1,7 +1,7 @@
 tasks:
   - init: yarn install
 
-image: node:alpine
+image: node:buster
 
 ports:
   - port: 8080
