@@ -6,7 +6,7 @@
   actionText: Admissions Information →
   actionLink: "/admissions/"
   features:
-  - title: Christian Principles
+  - title: Christian Principals
     details: Educating students in a Christian environment that reveals God’s ultimate purpose for their lives.
   - title: Children Focused
     details: Shrewsbury Christian Academy partners with the home and church to provide an atmosphere in which the whole child may grow toward full God-given potential.
