@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main  # Change this to the branch you want to trigger the workflow on
-
+  workflow_run:
+    workflows:
+      - "Build and Deploy VuePress"
+    types:
+      - completed
 jobs:
   build:
     runs-on: ubuntu-latest
