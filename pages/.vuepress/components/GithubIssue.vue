@@ -9,9 +9,30 @@
         <button type="submit">Submit</button>
     </form>
 </template>
+<script type="module">
+  import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+</script>
 <script>
-import { Octokit } from '@octokit/rest'
-import { createAppAuth } from '@octokit/auth-app'
+const ISSUE_CREATE_TOKEN = ""; // only allowed to create issues
+
+const octokit = new Octokit({ auth: ISSUE_CREATE_TOKEN });
+
+// Create the issue
+async function createIssue(title, body) {
+  try {
+    const response = await octokit.issues.create({
+      owner,
+      repo,
+      title,
+      body
+    });
+    console.log("Issue created successfully!");
+    console.log("Issue Number:", response.data.number);
+    console.log("Issue URL:", response.data.html_url);
+  } catch (error) {
+    console.error("Error creating the issue:", error);
+  }
+}
 
 export default {
     name: 'GithubIssue',
@@ -22,18 +43,6 @@ export default {
     },
     methods: {
         submit () {
-            let api = new Octokit({
-                authStrategy: createAppAuth,
-                auth: this.auth,
-                userAgent: 'scaonline',
-                // baseUrl: 'https://api.github.com',
-                log: {
-                    debug: console.log,
-                    info: console.log,
-                    warn: console.warn,
-                    error: console.error
-                }
-            })
             let data = {
                 owner: this.owner,
                 repo: this.repo,
@@ -41,7 +50,11 @@ export default {
                 body: this.form.body
             }
             console.log('SUBMIT', data)
-            window.resp = api.issues.create(data)
+            if (data.title.length > 3 && data.body.length > 10) {
+                createIssue(title, body)
+            } else {
+                alert('Please add a descriptive title and body!')
+            }
         }
     },
     props: {

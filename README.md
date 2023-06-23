@@ -39,8 +39,8 @@ This project uses the following technologies/services:
 ## Gitpod.io
 [Gitpod](https://www.gitpod.io/) is a cloud service for editing a git repository through a browser web IDE.
 
-## Travis CI
-[Travis CI](https://travis-ci.org/) is a continious integration server which can operate on github git repositories.  It can automatically build production code from source code based on changes commit to a git repository.
+## Github Actions
+[Github Actions](https://github.com/features/actions/) is a Github based job runner which can be used to automate all sorts of tasks, specifically like building and deploying a website from source code.  In this case, we first build the static web pages then deploy them to Github Pages, the job is defined [here](https://github.com/stellar-sites/sca/blob/main/.github/workflows/deploy.yml).  This was previously handled by Travic CI unless it required a monthly payment plan whereas Github Actions provides a limited free tier.
 
 ## Github Pages
 [Github Pages](https://pages.github.com/) is a free web hosting provider for Github repositories.  It can only serve static files to the internet and works nicely with the Vuepress static site generator.
