@@ -27,9 +27,6 @@ Electronic payments can be made at <a href="https://eps.mvpbanking.com/cgi-bin/e
 {{ $page.current_year }} Tuition and Fee schedules are now available click <a :href="$withBase('/tuition/')">here</a> for details!
 :::
 
-::: danger COVID-19 Notice
-See Shrewsbury Christian Academy's <a :href="$withBase('/assets/files/sca-covid-plan.pdf')" target="_blank">COVID-19 Health and Safety Plan</a> for details on how SCA is planning to open safely for students and staff by clicking <a :href="$withBase('/assets/files/sca-covid-plan.pdf')" target="_blank">here</a>.
-:::
 
 </TipBar>
 
