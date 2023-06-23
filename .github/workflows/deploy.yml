@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Change this to the branch you want to trigger the workflow on
 
+  # allow to manually trigger workflow from actions UI
+  workflow_dispatch:
+
 permissions:
   id-token: write
   pages: write
