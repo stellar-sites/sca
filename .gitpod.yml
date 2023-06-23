@@ -1,5 +1,7 @@
 tasks:
   - init: yarn install
+    env:
+      NODE_OPTIONS: "--openssl-legacy-provider"
 
 image: node:lts
 
