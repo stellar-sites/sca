@@ -1,6 +1,6 @@
 [![Website](https://scaonline.org/websiteup.svg)](https://scaonline.org)
 [![release](https://img.shields.io/github/v/release/stellar-sites/sca)](https://github.com/stellar-sites/sca/releases)
-[![Build Status](https://travis-ci.org/stellar-sites/sca.svg?branch=master)](https://travis-ci.org/stellar-sites/sca)
+![Build Status](https://github.com/stellar-sites/sca/actions/workflows/deploy.yml/badge.svg)
 ![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/stellar-sites/sca)
 
@@ -14,7 +14,7 @@ This website is built using the following steps in a cycle:
 1. Create, Modify, or delete website content (GitPod)
 2. View changes in a live demo of the website (GitPod)
 3. Save and commit changes to Github (GitPod)
-4. [AUTO] Build the updated website with those changes (Travis CI)
+4. [AUTO] Build the updated website with those changes (Github Action)
 5. [AUTO] Deploy the updated website to hosting provider (Github Pages)
 6. Go back to step 1
 
@@ -65,5 +65,5 @@ In the terminal window at the bottom of the gitpod IDE, do the following:
 * The new tab should now contain a rendering of the code in your gitpod, you can freely edit the files within your gitpod and see the live results in the website preview.
 * Once all changes have been made and tested, merge the changes to the git repository (or submit a merge request if you do not have permission).
 * Use the git link on the narrow toolbar on the right edge of the gitpod IDE to perform git actions like merge requests.
-* Once your changes have been merged to the master branch (either directly or approved), Travis CI will build and deploy to Github Pages the new website.
-* The links at the top of this README will show the status of the Travis CI build
+* Once your changes have been merged to the master branch (either directly or approved), a Github Action workflow will build and deploy to Github Pages the new website.
+* The links at the top of this README will show the status of the build
