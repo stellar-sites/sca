@@ -20,7 +20,7 @@ export default {
     props: {
         delay: {
             type: Number,
-            default: 6000
+            default: 3000
         },
         blockSelector: {
             type: String,

@@ -25,8 +25,7 @@ A child must be three (3) years of age by September 30th to be eligible for the 
 ## Forms & Brochures
 * <a :href="$withBase('/assets/files/sca-brochure.pdf')" target="_blank">SCA Brochure</a>
 * <a :href="$withBase('/assets/files/sca-preschool.pdf')" target="_blank">Pre-School Program</a>
-* <a :href="$withBase('/assets/files/sca-calendar.pdf')" target="_blank">2020-2021 School Calendar</a>
-* <a :href="$withBase('/assets/files/sca-calendar-2021-2022.pdf')" target="_blank">2021-2022 School Calendar</a>
+* <a :href="$withBase('/assets/files/2023-24-sca-calendar.pdf')" target="_blank">2023-2024 School Calendar</a>
 
 ::: tip Note: 
   See sidebar for dress code information and school handbooks.

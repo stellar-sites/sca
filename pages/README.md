@@ -17,16 +17,19 @@
     Offering a Christ-centered private education for preschool through eighth grade in Southern York County, Pennsylvania.
 ---
 
+<TipBar>
+
+::: tip 2023-2024 Calendar is here!
+The calendar for 2023-2024 is now available <a :href="$withBase('/assets/files/2023-24-sca-calendar.pdf')" target="_blank">here</a>!
+:::
+
 ::: warning E-Funds
 Electronic payments can be made at <a href="https://eps.mvpbanking.com/cgi-bin/efs/login.pl?access=55719" target="_blank">E-Funds</a>, please click <a href="https://eps.mvpbanking.com/cgi-bin/efs/login.pl?access=55719" target="_blank">here</a>.
 :::
 
-<TipBar>
-
-::: tip Updated Tuition Rates Are Here!
-{{ $page.current_year }} Tuition and Fee schedules are now available click <a :href="$withBase('/tuition/')">here</a> for details!
+::: tip Tuition Rates
+{{ $page.current_year }} Tuition and Fee schedules are available <a :href="$withBase('/tuition/')">here</a> for details!
 :::
-
 
 </TipBar>
 
