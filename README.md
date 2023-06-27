@@ -1,7 +1,7 @@
 [![Website](https://scaonline.org/websiteup.svg)](https://scaonline.org)
 [![release](https://img.shields.io/github/v/release/stellar-sites/sca)](https://github.com/stellar-sites/sca/releases)
-![Build Status](https://github.com/stellar-sites/sca/actions/workflows/deploy.yml/badge.svg)
-![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)
+[![Build Status](https://github.com/stellar-sites/sca/actions/workflows/deploy.yml/badge.svg)](https://github.com/stellar-sites/sca/actions)
+[![uptime](https://img.shields.io/uptimerobot/ratio/7/m784548662-44944a89604e8ad0d9a49527)](https://uptimerobot.com/dashboard.php#784548662)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/stellar-sites/sca)
 
 # Shrewsbury Christian Academy
