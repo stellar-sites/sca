@@ -18,8 +18,8 @@ SCA is overseen by a school board consisting of parents and local business peopl
 | Pre-K4  | Mon, Wed, Fri (1/2 day) | $1,585 | $75 |
 | Pre-K4  | Mon, Wed, Fri (full day) | $3,220 | $125 |
 | Pre-K4  | Mon - Fri (1/2 day) | $2,685 | $125 |
-| Pre-K4  | Mon - Fri (full day) | $4,295 | $250 |
-| K5 - 8th | Mon - Fri (full day) | $4,295 | $250 |
+| Pre-K4  | Mon - Fri (full day) | $4,498 | $250 |
+| K5 - 8th | Mon - Fri (full day) | $4,498 | $250 |
 
 ::: tip Note
 Maximum registration fee per family is $375.
