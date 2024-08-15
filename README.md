@@ -67,3 +67,16 @@ In the terminal window at the bottom of the gitpod IDE, do the following:
 * Use the git link on the narrow toolbar on the right edge of the gitpod IDE to perform git actions like merge requests.
 * Once your changes have been merged to the master branch (either directly or approved), a Github Action workflow will build and deploy to Github Pages the new website.
 * The links at the top of this README will show the status of the build
+
+For example, here is how you manually
+```
+git status
+git add .
+git commit -m 'changed year to 2024-25'
+git push -u origin main
+```
+
+Once pushed successfully and assuming you have permission, the [github actions page](https://github.com/stellar-sites/sca/actions) will show the status of the build. If successful, the website will be updated automatically.
+
+
+
