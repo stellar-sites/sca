@@ -19,8 +19,8 @@
 
 <TipBar>
 
-::: tip 2023-2024 Calendar is here!
-The calendar for 2023-2024 is now available <a :href="$withBase('/assets/files/2023-24-sca-calendar.pdf')" target="_blank">here</a>!
+::: tip 2024-2025 Calendar is here!
+The calendar for 2024-2025 is now available <a :href="$withBase('/assets/files/2024-25-sca-calendar.pdf')" target="_blank">here</a>!
 :::
 
 ::: warning E-Funds

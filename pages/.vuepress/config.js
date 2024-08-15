@@ -52,7 +52,7 @@ module.exports = {
   },
   extendPageData ($page) {
     $page.principal = "Mrs. Lippy"
-    $page.current_year = "2023-24"
+    $page.current_year = "2024-25"
     $page.links = {
       sycamore: "https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494"
     }
