@@ -92,3 +92,4 @@ The matching Decap CMS admin schemas are in `public/admin/config.yml`.
 | `sage`       | #6B8E6F | Secondary accent, banners |
 
 Fonts: `font-display` → Fraunces · `font-sans` → Inter.
+
