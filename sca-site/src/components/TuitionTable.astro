@@ -1,0 +1,28 @@
+---
+import { getEntry } from 'astro:content';
+const { data: s } = await getEntry('site', 'default');
+---
+
+<div class="overflow-x-auto rounded-xl border border-navy-100 bg-white">
+  <table class="w-full text-left">
+    <caption class="sr-only">Tuition and registration fees for {s.schoolYear}</caption>
+    <thead class="bg-ivory-200 text-navy-700">
+      <tr>
+        <th scope="col" class="px-5 py-3 font-medium">Grades</th>
+        <th scope="col" class="px-5 py-3 font-medium">Schedule</th>
+        <th scope="col" class="px-5 py-3 font-medium text-right">Annual Total</th>
+        <th scope="col" class="px-5 py-3 font-medium text-right">Registration Fee</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-navy-100">
+      {s.tuitionRows.map((r) => (
+        <tr class="hover:bg-ivory/40">
+          <td class="px-5 py-3 font-medium text-navy-900">{r.grade}</td>
+          <td class="px-5 py-3 text-ink/80">{r.schedule}</td>
+          <td class="px-5 py-3 text-right tabular-nums">{r.annualTotal}</td>
+          <td class="px-5 py-3 text-right tabular-nums">{r.registrationFee}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,30 @@
+services:
+  dev:
+    build: .
+    ports:
+      - "4321:4321"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev -- --host 0.0.0.0
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - DECAP_PROXY_TARGET=http://cms:8081
+    depends_on:
+      - cms
+
+  cms:
+    image: node:20-alpine
+    user: "node"
+    working_dir: /work
+    volumes:
+      - ..:/work
+    command: >
+      sh -c "npx --yes decap-server@^3.1.0"
+    expose:
+      - "8081"
+    environment:
+      - PORT=8081
+      - GIT_REPO_DIRECTORY=/work
+      - npm_config_cache=/tmp/.npm
+      - HOME=/tmp

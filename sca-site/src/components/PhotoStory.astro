@@ -1,0 +1,43 @@
+---
+const photos = [
+  { src: '/assets/img/first-grade-classroom-teacher.jpg', alt: 'First-grade classroom with teacher', span: 'tall' },
+  { src: '/assets/img/lab.jpg', alt: 'Students in the science lab' },
+  { src: '/assets/img/enviroteam.jpg', alt: 'Envirothon team outdoors' },
+  { src: '/assets/img/second-grade-paperwork.jpg', alt: 'Second grader at work' },
+  { src: '/assets/img/firedrop.jpg', alt: 'Egg-drop event from the fire truck ladder', span: 'wide' },
+  { src: '/assets/img/fifth-grade-boy-in-class.jpg', alt: 'Fifth grade student in class' },
+];
+---
+
+<section class="section">
+  <div class="container-wide">
+    <div class="grid lg:grid-cols-12 gap-10 items-end mb-14" data-reveal>
+      <div class="lg:col-span-7">
+        <span class="eyebrow">A day at SCA</span>
+        <h2 class="mt-5 display-md text-balance">
+          Learning, faith, and curiosity — <span class="serif-italic text-brass-700">in motion.</span>
+        </h2>
+      </div>
+      <p class="lg:col-span-4 lg:col-start-9 lead text-pretty">
+        From phonics to Python, from chapel to the Egg-Drop — every day is full.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-6 auto-rows-[120px] md:auto-rows-[160px] gap-3 md:gap-4" data-reveal>
+      {photos.map((p, i) => {
+        const classes = [
+          'relative overflow-hidden rounded-2xl group',
+          p.span === 'tall' ? 'col-span-3 row-span-3 md:col-span-2 md:row-span-3' :
+          p.span === 'wide' ? 'col-span-6 row-span-2 md:col-span-4 md:row-span-2' :
+          'col-span-3 row-span-2 md:col-span-2 md:row-span-2',
+        ].join(' ');
+        return (
+          <figure class={classes}>
+            <img src={p.src} alt={p.alt} class="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-700 ease-out" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-900/50 via-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          </figure>
+        );
+      })}
+    </div>
+  </div>
+</section>

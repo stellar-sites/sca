@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Tabs from '../components/Tabs.astro';
+import TabPanel from '../components/TabPanel.astro';
+import Prose from '../components/Prose.astro';
+
+const scienceTabs = [
+  { label: 'Environmental Science', id: 'enviro' },
+  { label: 'Biology', id: 'biology' },
+  { label: 'Physics', id: 'physics' },
+  { label: 'Chemistry', id: 'chemistry' },
+  { label: 'Science Fair', id: 'fair' },
+];
+---
+
+<BaseLayout title="STEM — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="STEM"
+    title="Science, Technology, Engineering, and Math — rooted in wonder."
+    subtitle="Southern York County's preferred Christian STEM school. Hands-on learning from Pre-K through 8th grade."
+  />
+
+  <section class="section">
+    <div class="container-prose">
+      <div class="max-w-3xl">
+        <h2 class="font-display text-3xl text-navy-700">Science</h2>
+        <p class="mt-4 text-ink/80 text-lg">Our Middle School science curriculum is designed to prepare students for the most challenging high school science programs in the area — while revealing the wonders of God's creation.</p>
+      </div>
+      <div class="mt-10">
+        <Tabs group="science" tabs={scienceTabs} />
+
+        <TabPanel group="science" id="enviro" label="Environmental Science">
+          <div class="grid md:grid-cols-2 gap-8 items-center">
+            <Prose class="!mx-0">
+              <h3>Environmental Science</h3>
+              <p>We augment textbook instruction with materials from the York County Envirothon program — combining classroom instruction with hands-on learning. SCA's Envirothon teams have regularly won awards at the annual York County competition with 30+ schools competing.</p>
+            </Prose>
+            <img src="/assets/img/enviroteam.jpg" alt="Envirothon team" class="rounded-xl w-full object-cover aspect-[4/3] shadow-md" loading="lazy" />
+          </div>
+        </TabPanel>
+        <TabPanel group="science" id="biology" label="Biology">
+          <div class="grid md:grid-cols-2 gap-8 items-center">
+            <Prose class="!mx-0">
+              <h3>Biology</h3>
+              <p>Students are introduced to the physiology of plants and animals, biological processes, and anatomy. Laboratory dissections are an integral part of the curriculum.</p>
+            </Prose>
+            <img src="/assets/img/disect.jpg" alt="Students conducting a dissection" class="rounded-xl w-full object-cover aspect-[4/3] shadow-md" loading="lazy" />
+          </div>
+        </TabPanel>
+        <TabPanel group="science" id="physics" label="Physics">
+          <div class="grid md:grid-cols-2 gap-8 items-center">
+            <Prose class="!mx-0">
+              <h3>Physics</h3>
+              <p>Students are introduced to basic physics concepts. Typical hands-on projects include designing and building a marble coaster.</p>
+            </Prose>
+            <img src="/assets/img/marbles.jpg" alt="Marble coaster project" class="rounded-xl w-full object-cover aspect-[4/3] shadow-md" loading="lazy" />
+          </div>
+        </TabPanel>
+        <TabPanel group="science" id="chemistry" label="Chemistry">
+          <div class="grid md:grid-cols-2 gap-8 items-center">
+            <Prose class="!mx-0">
+              <h3>Chemistry</h3>
+              <p>Students are introduced to basic atomic theory, the Periodic Table, and covalent and ionic bonding.</p>
+            </Prose>
+            <img src="/assets/img/powder.jpg" alt="Chemistry experiment" class="rounded-xl w-full object-cover aspect-[4/3] shadow-md" loading="lazy" />
+          </div>
+        </TabPanel>
+        <TabPanel group="science" id="fair" label="Science Fair">
+          <div class="grid md:grid-cols-2 gap-8 items-center">
+            <Prose class="!mx-0">
+              <h3>Annual Science Fair</h3>
+              <p>Our Annual Middle School Science Fair is a highlight of spring. Students select scholarly projects, work independently, and display results at an Open House in our gymnasium.</p>
+            </Prose>
+            <img src="/assets/img/lab.jpg" alt="Students in the science lab" class="rounded-xl w-full object-cover aspect-[4/3] shadow-md" loading="lazy" />
+          </div>
+        </TabPanel>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-ivory-200">
+    <div class="container-prose grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-7">
+        <h2 class="font-display text-3xl text-navy-700">Technology</h2>
+        <p class="mt-4 text-ink/80 text-lg">Our technology program starts in Pre-K4 and runs through Grade 8, equipping students with skills they'll need in high school, college, and their future careers.</p>
+        <div class="mt-8 space-y-6">
+          <div class="bg-white rounded-xl p-6 border border-navy-100">
+            <h3 class="font-display text-xl text-navy-700">Microsoft Office Suite (Grades 1–5)</h3>
+            <p class="mt-2 text-sm text-ink/80">Students learn Word, Excel, PowerPoint, and Publisher — one project per marking period, integrated with other classroom subjects.</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 border border-navy-100">
+            <h3 class="font-display text-xl text-navy-700">Google Workspace (Grades 6–8)</h3>
+            <p class="mt-2 text-sm text-ink/80">Students apply MS Office fundamentals to Docs, Sheets, and Slides — preparing for the tools used by area high schools.</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 border border-navy-100">
+            <h3 class="font-display text-xl text-navy-700">Coding</h3>
+            <p class="mt-2 text-sm text-ink/80">Hour of Code (Grades 1–5) introduces block coding. Python (Grade 6+) uses the edhesive Explorations in Coding I curriculum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-5">
+        <img src="/assets/img/remoteclass.jpg" alt="Students using computers" class="rounded-xl w-full aspect-[4/3] object-cover shadow-md" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-prose">
+      <h2 class="font-display text-3xl text-navy-700">Engineering</h2>
+      <p class="mt-4 max-w-3xl text-ink/80 text-lg">Engineering is woven into science and technology across the school — giving middle schoolers the chance to apply creativity and skill to design, build, and demonstrate machines.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-6 border border-navy-100">
+          <h3 class="font-display text-xl text-navy-700">3-D Printing</h3>
+          <p class="mt-2 text-sm text-ink/80">Introduction for Grades 1–4; 3-D design and printing on the MakerBot SKETCH for Grades 5–8.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-navy-100">
+          <h3 class="font-display text-xl text-navy-700">Annual Egg-Drop</h3>
+          <p class="mt-2 text-sm text-ink/80">Students design protective devices to keep an egg intact from the top of the Shrewsbury Fire Company ladder truck.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-navy-100">
+          <h3 class="font-display text-xl text-navy-700">Robotics</h3>
+          <p class="mt-2 text-sm text-ink/80">Design, build, and program robots using Hummingbird (Birdbrain), LittleBits, and Sphero kits.</p>
+        </div>
+      </div>
+      <div class="mt-10 grid md:grid-cols-3 gap-4">
+        <img src="/assets/img/makerbot.jpg" alt="MakerBot 3D printer" class="rounded-xl aspect-[4/3] object-cover" loading="lazy" />
+        <img src="/assets/img/firedrop.jpg" alt="Egg-drop from fire truck ladder" class="rounded-xl aspect-[4/3] object-cover" loading="lazy" />
+        <img src="/assets/img/hummingbird.webp" alt="Hummingbird robotics project" class="rounded-xl aspect-[4/3] object-cover" loading="lazy" />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

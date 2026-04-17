@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+const members = (await getCollection('staff')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {members.map(async (m) => {
+    const { Content } = await m.render();
+    return (
+      <article class="bg-white rounded-2xl border border-navy-100 overflow-hidden shadow-sm">
+        <div class="aspect-[4/3] bg-sage/10 flex items-center justify-center">
+          {m.data.photo ? (
+            <img src={m.data.photo} alt="" class="w-full h-full object-cover" loading="lazy" />
+          ) : (
+            <svg class="text-sage/50" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>
+          )}
+        </div>
+        <div class="p-6">
+          <h3 class="font-display text-xl text-navy-700">{m.data.name}</h3>
+          <div class="text-sm text-brass-700 mt-1">{m.data.title}</div>
+          <div class="mt-3 text-ink/80 text-sm leading-relaxed prose prose-sm max-w-none">
+            <Content />
+          </div>
+        </div>
+      </article>
+    );
+  })}
+</div>

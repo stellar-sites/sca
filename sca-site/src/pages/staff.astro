@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import StaffGrid from '../components/StaffGrid.astro';
+---
+
+<BaseLayout title="Faculty & Staff — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="Faculty & Staff"
+    title="The people who shape every school day."
+    subtitle="Academically qualified, devoted to their students, and grounded in faith."
+  />
+
+  <section class="section">
+    <div class="container-prose">
+      <StaffGrid />
+      <div class="mt-12 rounded-xl bg-sage/10 border border-sage/30 p-6 text-center">
+        <p class="text-ink/80">Interested in joining our team? <a href="/employment/" class="text-navy-700 font-medium underline hover:text-brass-700">See open positions →</a></p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ValuePillars from '../components/ValuePillars.astro';
+import PhotoStory from '../components/PhotoStory.astro';
+import QuickFacts from '../components/QuickFacts.astro';
+import AnnouncementStrip from '../components/AnnouncementStrip.astro';
+---
+
+<BaseLayout title="Shrewsbury Christian Academy — Faith & Learning in Southern York County">
+  <Hero
+    eyebrow="Since 1977 · PreK-3 through 8th"
+    titleLead="A Christian education"
+    titleItalic="that forms"
+    titleTrail="the whole child."
+    subtitle="Shrewsbury Christian Academy serves families in Southern York County, PA — partnering with home and church to help every student grow spiritually, intellectually, physically, emotionally, and socially."
+    image="/assets/img/main.jpg"
+    imageAlt="Students at Shrewsbury Christian Academy"
+    primaryCta={{ label: 'Schedule a tour', href: '/contact/#tour' }}
+    secondaryCta={{ label: 'Admissions info', href: '/admissions/' }}
+  />
+
+  <AnnouncementStrip />
+  <ValuePillars />
+  <PhotoStory />
+  <QuickFacts />
+
+  <section class="section">
+    <div class="container-wide grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+      <div class="lg:col-span-6 order-2 lg:order-1" data-reveal>
+        <span class="eyebrow">Welcome</span>
+        <h2 class="mt-5 display-md text-balance">
+          A small school with <span class="serif-italic text-brass-700">big roots</span> — and a bigger vision.
+        </h2>
+        <div class="mt-8 space-y-5 text-ink/80 text-[1.0625rem] leading-[1.75]">
+          <p>Located in Southern York County, Pennsylvania, we offer a Christ-centered education for preschool through eighth grade. We're an independent, non-denominational Christian school, solely funded through tuition and donations from local businesses, churches, and individuals.</p>
+          <p>Our students come from York County in Pennsylvania and from Baltimore & Harford Counties in Maryland. Since 1977, our faculty have invested themselves in the lives of our young people — to help them succeed spiritually, intellectually, physically, emotionally, and socially.</p>
+        </div>
+        <div class="mt-10 flex flex-wrap gap-3">
+          <a href="/about/" class="btn-secondary">About the school</a>
+          <a href="/academics/" class="btn-ghost">Academic program →</a>
+        </div>
+      </div>
+      <div class="lg:col-span-6 order-1 lg:order-2 relative" data-reveal>
+        <div class="relative rounded-[2rem] overflow-hidden ring-1 ring-navy-100 shadow-lift">
+          <img src="/assets/img/sca-flagpole.jpg" alt="Shrewsbury Christian Academy building" class="w-full h-auto aspect-[4/5] object-cover" loading="lazy" />
+        </div>
+        <div class="absolute -top-4 -left-4 hidden md:block w-28 h-28 rounded-2xl bg-sage/50 -z-10"></div>
+        <div class="absolute -bottom-4 -right-4 hidden md:block w-40 h-40 rounded-2xl bg-brass/30 -z-10"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-wide">
+      <div class="relative rounded-[2.5rem] overflow-hidden bg-navy-900 text-ivory px-8 md:px-16 py-20 md:py-28">
+        <div class="absolute inset-0 opacity-[0.05]" style="background-image: radial-gradient(circle at 1px 1px, #FAF7F2 1px, transparent 0); background-size: 24px 24px;" aria-hidden="true"></div>
+        <div class="absolute -top-16 -right-16 w-[320px] h-[320px] rounded-full bg-brass/20 blur-3xl" aria-hidden="true"></div>
+        <div class="relative max-w-3xl" data-reveal>
+          <span class="eyebrow text-brass">Visit us</span>
+          <h2 class="mt-5 font-display font-[450] text-[clamp(2.25rem,5vw,4rem)] leading-[1.02] tracking-[-0.025em] text-ivory text-balance">
+            See a day at SCA <span class="serif-italic text-brass">in person.</span>
+          </h2>
+          <p class="mt-6 text-ivory/80 text-[1.125rem] md:text-[1.25rem] leading-[1.65] max-w-[52ch]">
+            The best way to know if SCA is the right fit for your family is to walk our halls, meet our teachers, and see our students at work.
+          </p>
+          <div class="mt-10 flex flex-wrap gap-3">
+            <a href="/contact/#tour" class="btn-accent">Schedule a tour <span aria-hidden="true">→</span></a>
+            <a href="/admissions/" class="btn-secondary !text-ivory !border-ivory/40 hover:!bg-ivory hover:!text-navy-900">Admissions process</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

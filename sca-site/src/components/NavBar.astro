@@ -1,0 +1,69 @@
+---
+const nav = [
+  { label: 'About', href: '/about/' },
+  { label: 'Academics', href: '/academics/' },
+  { label: 'STEM', href: '/stem/' },
+  { label: 'Admissions', href: '/admissions/' },
+  { label: 'Tuition', href: '/tuition/' },
+  { label: 'Staff', href: '/staff/' },
+  { label: 'Info', href: '/info/' },
+  { label: 'Give', href: '/support/' },
+  { label: 'Contact', href: '/contact/' },
+];
+---
+
+<header class="sticky top-0 z-40 border-b border-navy-100/70 bg-ivory/80 backdrop-blur-md">
+  <div class="container-wide flex items-center justify-between h-[76px]">
+    <a href="/" class="flex items-center gap-3 no-underline group" aria-label="Shrewsbury Christian Academy home">
+      <img src="/assets/img/logo.jpg" alt="" width="44" height="44" class="rounded-full ring-1 ring-brass-200 group-hover:ring-brass transition" />
+      <span class="hidden sm:flex flex-col leading-tight">
+        <span class="font-display text-navy-700 text-[1.05rem] font-[500] tracking-[-0.01em]">Shrewsbury Christian Academy</span>
+        <span class="font-mono text-[0.65rem] tracking-[0.2em] text-ink-muted uppercase">Since 1977 · New Freedom, PA</span>
+      </span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-1" aria-label="Primary">
+      {nav.map((item) => (
+        <a
+          href={item.href}
+          class="px-3 py-2 text-[0.9rem] text-ink/80 hover:text-navy-900 no-underline transition-colors relative after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-brass after:scale-x-0 after:origin-left after:transition-transform hover:after:scale-x-100"
+        >{item.label}</a>
+      ))}
+      <a href="/contact/#tour" class="btn-accent text-sm !py-2.5 !px-5 ml-3">Schedule a tour</a>
+    </nav>
+
+    <button
+      id="nav-toggle"
+      class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-md text-navy-700 hover:bg-navy-50"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-nav"
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="4" y1="7" x2="20" y2="7" /><line x1="4" y1="12" x2="20" y2="12" /><line x1="4" y1="17" x2="20" y2="17" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-nav" class="lg:hidden hidden border-t border-navy-100 bg-ivory">
+    <nav class="container-wide flex flex-col py-4 gap-1" aria-label="Mobile">
+      {nav.map((item) => (
+        <a
+          href={item.href}
+          class="py-3 text-navy-700 no-underline hover:text-brass-700 border-b border-navy-100 last:border-0 text-lg font-display"
+        >{item.label}</a>
+      ))}
+      <a href="/contact/#tour" class="btn-accent mt-4 w-full">Schedule a tour</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('nav-toggle');
+  const menu = document.getElementById('mobile-nav');
+  btn?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+</script>

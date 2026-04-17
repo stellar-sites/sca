@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Prose from '../components/Prose.astro';
+import { getEntry } from 'astro:content';
+const { data: s } = await getEntry('site', 'default');
+---
+
+<BaseLayout title="Support SCA — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="Give"
+    title="Support the next generation of SCA students."
+    subtitle="Your gift helps us continue offering a Christ-centered education. All donations are tax deductible."
+  />
+
+  <section class="section">
+    <div class="container-prose grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {[
+        { title: 'School Operations', body: 'Cover expenses that tuition and fees alone don\'t reach — everyday classroom essentials and school programs.' },
+        { title: 'Scholarships', body: 'Help families in need receive tuition assistance so more children can access a Christian education.' },
+        { title: 'Scrip Program', body: 'Fundraise while you shop! Buy gift cards for stores you already use — a portion goes to your student\'s bill and to SCA.' },
+        { title: 'Endowment Fund', body: 'Invest in the future growth and development of SCA — its programs, families, faculty, and staff.' },
+      ].map((d) => (
+        <div class="bg-white rounded-2xl p-6 border border-navy-100 shadow-sm">
+          <h3 class="font-display text-xl text-navy-700">{d.title}</h3>
+          <p class="mt-3 text-sm text-ink/80 leading-relaxed">{d.body}</p>
+        </div>
+      ))}
+    </div>
+    <div class="container-prose mt-10 flex flex-wrap gap-3 items-center">
+      <a href={`mailto:${s.givingEmail}?subject=Donation%20inquiry`} class="btn-primary">Contact about giving</a>
+      <a href={`tel:${s.phone.replace(/[^\d+]/g, '')}`} class="btn-secondary">Call {s.phone}</a>
+    </div>
+  </section>
+
+  <section class="section bg-ivory-200">
+    <div class="container-prose">
+      <div class="max-w-3xl">
+        <span class="eyebrow">Planned Giving</span>
+        <h2 class="mt-3 font-display text-3xl md:text-4xl text-navy-700">Support SCA through your estate plans.</h2>
+        <p class="mt-4 text-ink/80 text-lg">Consult with an estate planning professional who can evaluate your circumstances and create or update a plan appropriate for you. We'd be happy to discuss planned giving options with you.</p>
+      </div>
+
+      <div class="mt-10 grid lg:grid-cols-12 gap-8">
+        <div class="lg:col-span-8">
+          <Prose class="!mx-0">
+            <h3>Remembering SCA in your will</h3>
+            <p>You may name SCA as the beneficiary of a percentage of your estate, of a set dollar amount, or of a particular asset. Your estate receives an estate tax deduction for the full value of your bequest. SCA's principal address: 701 Windy Hill Road, New Freedom, PA 17349.</p>
+
+            <h3>Beneficiary designations</h3>
+            <p>Many estate assets are not transferred through your will, including living trusts, qualified retirement plans, life insurance proceeds, and annuities. You may name SCA as a primary or contingent beneficiary of any of these.</p>
+
+            <h3>Qualified retirement plans</h3>
+            <p>Naming SCA as a beneficiary of assets remaining in your IRA, Keogh, or other qualified plan after your lifetime may be wise tax planning — estate taxes and income taxes are avoided when a nonprofit is named as beneficiary.</p>
+
+            <h3>Life insurance</h3>
+            <p>Designating SCA as a life insurance beneficiary is a simple and often-used way to support SCA and gain tax advantages. You may irrevocably name SCA as owner, or retain ownership and name SCA as beneficiary.</p>
+
+            <h3>Charitable remainder trusts</h3>
+            <p>Make a gift to SCA that provides enhanced income for you and/or others for life (or a specified term). Two types: charitable remainder annuity trust (fixed payout) or charitable remainder unitrust (variable payout). Funded with cash, appreciated securities, real estate, collectibles, life insurance policies, or municipal bonds.</p>
+          </Prose>
+        </div>
+        <aside class="lg:col-span-4">
+          <div class="sticky top-28 bg-white rounded-2xl p-6 border border-navy-100">
+            <h3 class="font-display text-xl text-navy-700">Questions?</h3>
+            <p class="mt-3 text-sm text-ink/80">Contact SCA at <a href={`tel:${s.phone.replace(/[^\d+]/g, '')}`} class="text-navy-700 underline">{s.phone}</a> or <a href={`mailto:${s.givingEmail}`} class="text-navy-700 underline">{s.givingEmail}</a>.</p>
+            <div class="mt-5 pt-5 border-t border-navy-100">
+              <p class="text-xs uppercase tracking-wider text-ink-muted">Or contact</p>
+              <p class="mt-2 text-sm text-ink/80">
+                Wayne Holle, Financial Associate<br />
+                Thrivent Financial<br />
+                Office: 410-256-6411<br />
+                Cell: 717-586-6576
+              </p>
+            </div>
+            <p class="mt-5 text-xs text-ink-muted">The estate planning process requires the knowledge of a team of professionals including attorneys, tax accountants, and your Thrivent Financial associate.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

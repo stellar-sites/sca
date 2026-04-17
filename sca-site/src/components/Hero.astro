@@ -1,0 +1,66 @@
+---
+interface Props {
+  eyebrow?: string;
+  titleLead?: string;
+  titleItalic?: string;
+  titleTrail?: string;
+  /** Fallback for pages that haven't migrated to the 3-part title shape */
+  title?: string;
+  subtitle?: string;
+  image: string;
+  imageAlt?: string;
+  primaryCta?: { label: string; href: string };
+  secondaryCta?: { label: string; href: string };
+}
+
+const {
+  eyebrow,
+  titleLead,
+  titleItalic,
+  titleTrail,
+  title,
+  subtitle,
+  image,
+  imageAlt = '',
+  primaryCta,
+  secondaryCta,
+} = Astro.props;
+---
+
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0 -z-10 bg-gradient-to-b from-ivory-50 via-ivory to-ivory-200"></div>
+  <div class="absolute -top-40 -left-40 w-[520px] h-[520px] rounded-full bg-brass/10 blur-3xl -z-10" aria-hidden="true"></div>
+  <div class="absolute top-20 -right-32 w-[420px] h-[420px] rounded-full bg-sage/15 blur-3xl -z-10" aria-hidden="true"></div>
+
+  <div class="container-wide grid lg:grid-cols-12 gap-10 lg:gap-20 pt-16 md:pt-24 pb-20 md:pb-28 items-center">
+    <div class="lg:col-span-7" data-reveal>
+      {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+      <h1 class="mt-6 display-lg text-balance">
+        {titleLead && <>{titleLead} </>}
+        {titleItalic && <span class="serif-italic text-brass-700">{titleItalic}</span>}
+        {titleTrail && <> {titleTrail}</>}
+        {title}
+      </h1>
+      {subtitle && <p class="mt-8 lead text-pretty">{subtitle}</p>}
+      {(primaryCta || secondaryCta) && (
+        <div class="mt-10 flex flex-wrap gap-3">
+          {primaryCta && <a href={primaryCta.href} class="btn-primary">{primaryCta.label} <span aria-hidden="true">→</span></a>}
+          {secondaryCta && <a href={secondaryCta.href} class="btn-secondary">{secondaryCta.label}</a>}
+        </div>
+      )}
+    </div>
+    <div class="lg:col-span-5 relative" data-reveal>
+      <div class="relative rounded-[2rem] overflow-hidden shadow-lift ring-1 ring-navy-100/70">
+        <img src={image} alt={imageAlt} class="w-full h-auto object-cover aspect-[4/5]" loading="eager" fetchpriority="high" />
+      </div>
+      <div class="absolute -bottom-6 -left-8 hidden md:flex flex-col gap-1 bg-white rounded-2xl px-5 py-4 shadow-lift ring-1 ring-navy-100">
+        <span class="font-mono text-eyebrow uppercase text-brass-700">Est.</span>
+        <span class="font-display text-3xl text-navy-700 leading-none">1977</span>
+      </div>
+      <div class="absolute -top-5 -right-5 hidden md:flex items-center gap-2 bg-navy-900 text-ivory rounded-full pl-4 pr-5 py-2 shadow-lift">
+        <span class="w-2 h-2 rounded-full bg-brass animate-pulse"></span>
+        <span class="font-mono text-eyebrow uppercase">Now enrolling</span>
+      </div>
+    </div>
+  </div>
+</section>

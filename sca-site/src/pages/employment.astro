@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Prose from '../components/Prose.astro';
+import { getEntry } from 'astro:content';
+const { data: s } = await getEntry('site', 'default');
+---
+
+<BaseLayout title="Employment — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="Employment"
+    title="Work where faith and learning meet."
+    subtitle="SCA is a board-operated, non-denominational, independent school offering an academic program to PreK-3 through 8th grade."
+  />
+
+  <section class="section">
+    <div class="container-prose grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-7">
+        <Prose class="!mx-0">
+          <p>Located in New Freedom, PA, just off I-83, 15 miles south of York. Founded in 1977, SCA's mission is to "educate students in a Christian environment that reveals God's ultimate purpose for their lives."</p>
+          <p>To apply, please email our office at <a href={`mailto:${s.email}`}>{s.email}</a> and review the applications linked at right.</p>
+
+          <h2>Substitute teachers</h2>
+          <p>Shrewsbury Christian Academy is currently accepting applications for substitute teachers. Qualified, interested individuals should send a cover letter, resume, references, transcript copy, and a handwritten testimony of your personal faith in Jesus Christ, via mail or email to:</p>
+          <address class="not-italic bg-ivory-200 rounded-xl p-5 my-4">
+            <strong>{s.principal}, Principal</strong><br />
+            Shrewsbury Christian Academy<br />
+            {s.address.street}<br />
+            {s.address.city}, {s.address.state} {s.address.zip}<br />
+            <a href="mailto:principal@scaonline.org">principal@scaonline.org</a>
+          </address>
+        </Prose>
+      </div>
+      <aside class="lg:col-span-5">
+        <div class="sticky top-28 rounded-2xl bg-sage/10 border border-sage/30 p-6">
+          <h3 class="font-display text-xl text-navy-700">Applications</h3>
+          <ul class="mt-4 space-y-3 text-sm">
+            <li><a href="/assets/files/sca-teacher-employment-application.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 Teacher Employment Application</a></li>
+            <li><a href="/assets/files/sca-staff-employment-application.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 Staff Employment Application</a></li>
+            <li><a href="/assets/files/sca-teacher-substitute-application.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 Substitute Teacher Application</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

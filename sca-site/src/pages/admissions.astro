@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Prose from '../components/Prose.astro';
+import { getEntry } from 'astro:content';
+const { data: s } = await getEntry('site', 'default');
+---
+
+<BaseLayout title="Admissions — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="Admissions"
+    title="Begin the conversation."
+    subtitle="We welcome PreK-3 through 8th grade students from a wide variety of backgrounds and denominations."
+  />
+
+  <section class="section">
+    <div class="container-prose grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-7">
+        <Prose>
+          <h2>Apply now</h2>
+          <p>Ready to inquire? Email <a href={`mailto:${s.email}`}>{s.email}</a> or call <a href={`tel:${s.phone.replace(/[^\d+]/g, '')}`}>{s.phone}</a>. You can also begin the enrollment inquiry online through our Sycamore portal.</p>
+
+          <h2>Admissions policy</h2>
+          <blockquote>Shrewsbury Christian Academy admits students of any race, color, national and ethnic origins to all the rights, privileges, programs, and activities generally accorded or made available to students at the school. It does not discriminate on the basis of race, sex, color, national and ethnic origin in the admission policies and school-administered programs.</blockquote>
+          <p>Applications are accepted for children from the age of three (3) years through the 8th grade. A copy of the child's birth certificate is required for children entering Pre-Kindergarten 3 through first grade. Students applying for other grades submit the most recent report card from their current school. Children transferring from other schools or beginning Kindergarten are screened before placement.</p>
+          <p>A personal interview may be requested with both parents and the student, and a parent agreement must be signed before enrollment is final. Applications may not be accepted due to lack of space, prior academic or disciplinary history, or our inability to provide needed special education services. All new students are on a probationary period for the first marking period.</p>
+
+          <h3>Age requirements</h3>
+          <ul>
+            <li>Pre-K3: child must be 3 years old by September 30</li>
+            <li>Pre-K4: child must be 4 years old by September 30</li>
+            <li>Kindergarten 5: child must be 5 years old by September 30</li>
+            <li>All Pre-K children must be potty trained</li>
+          </ul>
+          <p>The age determination date is considered flexible only in special circumstances, to be decided by the Head of School in cooperation with the grade teacher.</p>
+        </Prose>
+      </div>
+      <aside class="lg:col-span-5">
+        <div class="sticky top-28 space-y-4">
+          <div class="rounded-2xl bg-sage/10 border border-sage/30 p-6">
+            <h3 class="font-display text-xl text-navy-700">Forms & brochures</h3>
+            <ul class="mt-4 space-y-3 text-sm">
+              <li><a href="/assets/files/sca-brochure.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 SCA Brochure</a></li>
+              <li><a href="/assets/files/sca-preschool.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 Pre-School Program</a></li>
+              <li><a href="/assets/files/2024-25-sca-calendar.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 {s.schoolYear} School Calendar</a></li>
+              <li><a href="/assets/files/sca-application-eform.pdf" class="text-navy-700 hover:text-brass-700 flex items-center gap-2">📄 Application Form</a></li>
+            </ul>
+          </div>
+          <div class="rounded-2xl bg-brass/10 border border-brass/30 p-6">
+            <h3 class="font-display text-xl text-navy-700">Registration fees</h3>
+            <p class="mt-2 text-sm text-ink/80">Registration fees are paid annually and are non-refundable; they are not applied to tuition. Maximum registration fee per family is <strong>$375</strong>.</p>
+            <a href="/tuition/" class="mt-4 inline-block text-sm font-medium text-navy-700 hover:text-brass-700">See tuition & fees →</a>
+          </div>
+          <div class="rounded-2xl bg-navy-700 text-ivory p-6">
+            <h3 class="font-display text-xl">Ready to visit?</h3>
+            <p class="mt-2 text-sm text-ivory/85">Schedule a personal tour to meet our teachers and see our classrooms.</p>
+            <a href="/contact/#tour" class="btn-accent mt-4">Schedule a tour</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

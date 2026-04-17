@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import TuitionTable from '../components/TuitionTable.astro';
+import { getEntry } from 'astro:content';
+const { data: s } = await getEntry('site', 'default');
+---
+
+<BaseLayout title="Tuition & Fees — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow={`Tuition · ${s.schoolYear}`}
+    title="Straightforward costs, family-friendly caps."
+    subtitle="As an independent Christian school, SCA is primarily supported through tuition and donations. Our board reviews rates annually based on projected expenditures."
+  />
+
+  <section class="section">
+    <div class="container-prose">
+      <TuitionTable />
+
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="rounded-xl bg-sage/10 border border-sage/30 p-5">
+          <h3 class="font-display text-lg text-navy-700">Family maximum</h3>
+          <p class="mt-2 text-sm text-ink/80">The maximum registration fee per family is <strong>$375</strong>. Registration fees are paid annually, are non-refundable, and are not applied to tuition.</p>
+        </div>
+        <div class="rounded-xl bg-brass/10 border border-brass/30 p-5">
+          <h3 class="font-display text-lg text-navy-700">Pay online</h3>
+          <p class="mt-2 text-sm text-ink/80">Tuition and fees can be paid electronically through <a href={s.externalLinks.efunds} class="text-navy-700 underline hover:text-brass-700">E-Funds</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-ivory-200">
+    <div class="container-prose grid md:grid-cols-2 gap-6">
+      <div class="rounded-xl bg-white p-6 border border-navy-100">
+        <h3 class="font-display text-xl text-navy-700">Late fees</h3>
+        <p class="mt-3 text-ink/80">A late fee of <strong>$40.00</strong> is charged when tuition is 30 days past the due date.</p>
+      </div>
+      <div class="rounded-xl bg-white p-6 border border-navy-100">
+        <h3 class="font-display text-xl text-navy-700">Student Care</h3>
+        <p class="mt-3 text-ink/80"><strong>$8.00 per hour</strong> (or $4.00 per half hour) for Student Care before and after school: 7:30–8:30 AM and 4:00–5:00 PM.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

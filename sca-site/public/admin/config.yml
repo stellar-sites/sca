@@ -1,0 +1,117 @@
+backend:
+  name: github
+  repo: taemon1337/sca
+  branch: main
+
+# Decap CMS local editing backend. The admin UI POSTs to `/api/v1` on the same
+# origin; Astro's dev server proxies it to the `cms` service (decap-server).
+# This keeps the CMS port off the host and makes the admin work through any
+# hostname/tunnel that can reach the dev server.
+#
+# allowed_hosts: by default local_backend only activates on localhost/127.0.0.1.
+# Add any tunnel or LAN hostnames you use for local development below. In a
+# production deploy, omit these or strip the whole local_backend block.
+local_backend:
+  url: /api/v1
+  allowed_hosts:
+    - localhost
+    - 127.0.0.1
+    - blink.stello.org
+
+media_folder: sca-site/public/assets/uploads
+public_folder: /assets/uploads
+
+site_url: https://scaonline.org
+display_url: https://scaonline.org
+
+collections:
+  - name: site
+    label: "Site settings"
+    files:
+      - file: sca-site/src/content/site/default.json
+        label: "Default settings"
+        name: default
+        fields:
+          - { label: "School year", name: schoolYear, widget: string }
+          - { label: "Principal", name: principal, widget: string }
+          - { label: "Phone", name: phone, widget: string }
+          - { label: "Fax", name: fax, widget: string }
+          - { label: "Email", name: email, widget: string }
+          - { label: "Giving email", name: givingEmail, widget: string }
+          - label: "Address"
+            name: address
+            widget: object
+            fields:
+              - { label: Street, name: street, widget: string }
+              - { label: City, name: city, widget: string }
+              - { label: State, name: state, widget: string }
+              - { label: Zip, name: zip, widget: string }
+          - label: "Office hours"
+            name: officeHours
+            widget: object
+            fields:
+              - { label: "School-year hours", name: school, widget: string }
+              - { label: "Summer hours", name: summer, widget: string }
+          - label: "External links"
+            name: externalLinks
+            widget: object
+            fields:
+              - { label: Sycamore, name: sycamore, widget: string }
+              - { label: "Sycamore admissions", name: sycamoreAdmissions, widget: string }
+              - { label: "E-Funds", name: efunds, widget: string }
+              - { label: Facebook, name: facebook, widget: string }
+          - label: "Tuition rows"
+            name: tuitionRows
+            widget: list
+            fields:
+              - { label: Grade, name: grade, widget: string }
+              - { label: Schedule, name: schedule, widget: string }
+              - { label: "Annual total", name: annualTotal, widget: string }
+              - { label: "Registration fee", name: registrationFee, widget: string }
+          - label: "Quick facts"
+            name: quickFacts
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Value, name: value, widget: string }
+
+  - name: staff
+    label: "Faculty & Staff"
+    folder: sca-site/src/content/staff
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Department, name: department, widget: string, required: false }
+      - { label: Photo, name: photo, widget: image, required: false }
+      - { label: "Sort order", name: order, widget: number, default: 100, value_type: int }
+      - { label: Bio, name: body, widget: markdown }
+
+  - name: books
+    label: "Middle school reading list"
+    folder: sca-site/src/content/books
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: "Cover filename (in /assets/books/)", name: cover, widget: string }
+
+  - name: announcements
+    label: "Announcements"
+    folder: sca-site/src/content/announcements
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Variant, name: variant, widget: select, options: [tip, info, warning], default: info }
+      - { label: Link, name: link, widget: string, required: false }
+      - { label: "Link text", name: linkText, widget: string, required: false }
+      - { label: "Publish date", name: publishDate, widget: datetime }
+      - { label: Expires, name: expires, widget: datetime, required: false }
+      - { label: Body, name: body, widget: markdown }

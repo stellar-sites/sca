@@ -1,0 +1,26 @@
+---
+import { getEntry } from 'astro:content';
+const { data: s } = await getEntry('site', 'default');
+---
+
+<section class="relative overflow-hidden bg-navy-900 text-ivory">
+  <div class="absolute inset-0 -z-0 opacity-[0.07]" style="background-image: radial-gradient(circle at 1px 1px, #FAF7F2 1px, transparent 0); background-size: 24px 24px;" aria-hidden="true"></div>
+  <div class="absolute -bottom-32 -right-32 w-[520px] h-[520px] rounded-full bg-brass/10 blur-3xl" aria-hidden="true"></div>
+
+  <div class="container-wide relative py-20 md:py-28">
+    <div class="max-w-2xl mb-12 md:mb-16" data-reveal>
+      <span class="eyebrow text-brass">At a glance</span>
+      <h2 class="mt-5 font-display font-[450] text-[clamp(2rem,4vw,3rem)] leading-[1.05] tracking-[-0.02em] text-ivory text-balance">
+        A small school with <span class="serif-italic text-brass">deep roots.</span>
+      </h2>
+    </div>
+    <dl class="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-10 md:gap-y-0 divide-y md:divide-y-0 md:divide-x divide-ivory/10">
+      {s.quickFacts.map((f) => (
+        <div class="md:px-8 first:md:pl-0 last:md:pr-0 pt-6 md:pt-0" data-reveal>
+          <dt class="font-mono text-eyebrow uppercase text-brass">{f.label}</dt>
+          <dd class="mt-4 font-display font-[450] text-[clamp(1.75rem,3vw,2.5rem)] leading-[1.05] text-ivory">{f.value}</dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</section>

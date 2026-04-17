@@ -1,0 +1,49 @@
+---
+// Static form posts to Web3Forms (no backend). The access key is a public,
+// per-form routing token — replace ACCESS_KEY_PLACEHOLDER before going live.
+const accessKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? 'ACCESS_KEY_PLACEHOLDER';
+---
+
+<form
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  class="grid gap-4"
+>
+  <input type="hidden" name="access_key" value={accessKey} />
+  <input type="hidden" name="subject" value="New inquiry from scaonline.org" />
+  <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+  <div class="grid sm:grid-cols-2 gap-4">
+    <label class="block">
+      <span class="text-sm font-medium text-navy-700">Your name</span>
+      <input required name="name" type="text" autocomplete="name" class="mt-1 w-full rounded-lg border border-navy-100 bg-white px-4 py-3 focus:border-brass" />
+    </label>
+    <label class="block">
+      <span class="text-sm font-medium text-navy-700">Email</span>
+      <input required name="email" type="email" autocomplete="email" class="mt-1 w-full rounded-lg border border-navy-100 bg-white px-4 py-3 focus:border-brass" />
+    </label>
+  </div>
+
+  <label class="block">
+    <span class="text-sm font-medium text-navy-700">Phone (optional)</span>
+    <input name="phone" type="tel" autocomplete="tel" class="mt-1 w-full rounded-lg border border-navy-100 bg-white px-4 py-3 focus:border-brass" />
+  </label>
+
+  <fieldset class="grid sm:grid-cols-2 gap-3">
+    <legend class="text-sm font-medium text-navy-700 mb-1">I'm interested in</legend>
+    <label class="inline-flex items-center gap-2 text-sm"><input type="checkbox" name="interest" value="Tour" /> Scheduling a tour</label>
+    <label class="inline-flex items-center gap-2 text-sm"><input type="checkbox" name="interest" value="Admissions" /> Admissions info</label>
+    <label class="inline-flex items-center gap-2 text-sm"><input type="checkbox" name="interest" value="Tuition" /> Tuition & fees</label>
+    <label class="inline-flex items-center gap-2 text-sm"><input type="checkbox" name="interest" value="General" /> General question</label>
+  </fieldset>
+
+  <label class="block">
+    <span class="text-sm font-medium text-navy-700">Message</span>
+    <textarea required name="message" rows="5" class="mt-1 w-full rounded-lg border border-navy-100 bg-white px-4 py-3 focus:border-brass"></textarea>
+  </label>
+
+  <div class="flex items-center justify-between gap-4">
+    <p class="text-xs text-ink-muted">We reply within one business day.</p>
+    <button type="submit" class="btn-primary">Send message</button>
+  </div>
+</form>

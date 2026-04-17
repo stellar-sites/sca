@@ -1,0 +1,19 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  subtitle?: string;
+}
+const { eyebrow, title, subtitle } = Astro.props;
+---
+
+<header class="relative overflow-hidden border-b border-navy-100/60">
+  <div class="absolute inset-0 -z-10 bg-gradient-to-b from-ivory-50 to-ivory"></div>
+  <div class="absolute -top-24 right-0 w-[380px] h-[380px] rounded-full bg-brass/8 blur-3xl -z-10" aria-hidden="true"></div>
+
+  <div class="container-wide pt-16 md:pt-24 pb-14 md:pb-20 max-w-4xl" data-reveal>
+    {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+    <h1 class="mt-6 display-md text-balance">{title}</h1>
+    {subtitle && <p class="mt-6 lead text-pretty">{subtitle}</p>}
+  </div>
+</header>

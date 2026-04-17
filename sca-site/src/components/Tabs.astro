@@ -1,0 +1,57 @@
+---
+interface TabItem {
+  label: string;
+  id: string;
+}
+interface Props {
+  tabs: TabItem[];
+  group: string;
+}
+const { tabs, group } = Astro.props;
+---
+
+<div class="tabs" data-tabs={group}>
+  <div role="tablist" class="flex flex-wrap gap-2 border-b border-navy-100 mb-6" aria-label={group}>
+    {tabs.map((t, i) => (
+      <button
+        role="tab"
+        id={`${group}-tab-${t.id}`}
+        aria-controls={`${group}-panel-${t.id}`}
+        aria-selected={i === 0 ? 'true' : 'false'}
+        tabindex={i === 0 ? 0 : -1}
+        class="px-4 py-2 text-sm font-medium rounded-t-md border-b-2 transition-colors
+               aria-[selected=true]:border-brass aria-[selected=true]:text-navy-700
+               aria-[selected=false]:border-transparent aria-[selected=false]:text-ink-muted
+               hover:text-navy-700"
+      >{t.label}</button>
+    ))}
+  </div>
+  <div class="tab-panels">
+    <slot />
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-tabs]').forEach((wrap) => {
+    const group = wrap.dataset.tabs!;
+    const tabs = wrap.querySelectorAll<HTMLButtonElement>('[role="tab"]');
+    const panels = wrap.querySelectorAll<HTMLElement>('[role="tabpanel"]');
+    const activate = (idx: number) => {
+      tabs.forEach((t, i) => {
+        const on = i === idx;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        if (on) t.focus();
+      });
+      panels.forEach((p, i) => { p.hidden = i !== idx; });
+    };
+    panels.forEach((p, i) => { p.hidden = i !== 0; });
+    tabs.forEach((t, i) => {
+      t.addEventListener('click', () => activate(i));
+      t.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') activate((i + 1) % tabs.length);
+        if (e.key === 'ArrowLeft') activate((i - 1 + tabs.length) % tabs.length);
+      });
+    });
+  });
+</script>

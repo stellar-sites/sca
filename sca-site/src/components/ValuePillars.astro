@@ -1,0 +1,48 @@
+---
+const pillars = [
+  {
+    title: 'Christian Principles',
+    body: "Educating students in a Christian environment that reveals God's ultimate purpose for their lives.",
+  },
+  {
+    title: 'Children Focused',
+    body: 'Partnering with home and church so the whole child may grow toward full God-given potential.',
+  },
+  {
+    title: 'Proven Education',
+    body: 'Offering a Christ-centered private education for preschool through eighth grade since 1977.',
+  },
+];
+---
+
+<section class="section">
+  <div class="container-wide">
+    <div class="grid lg:grid-cols-12 gap-10 items-end mb-14 md:mb-20">
+      <div class="lg:col-span-6" data-reveal>
+        <span class="eyebrow">Why SCA</span>
+        <h2 class="mt-5 display-md text-balance">
+          Three commitments that shape <span class="serif-italic text-brass-700">every school day.</span>
+        </h2>
+      </div>
+      <p class="lg:col-span-5 lg:col-start-8 lead text-pretty" data-reveal>
+        We partner with parents to form students who love learning, love their neighbors, and know God.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 md:gap-5">
+      {pillars.map((p, i) => (
+        <article class="card p-8 md:p-9 group" data-reveal>
+          <div class="flex items-start justify-between">
+            <span class="font-mono text-eyebrow uppercase text-ink-muted">0{i + 1} / 03</span>
+            <span class="w-8 h-8 rounded-full bg-brass/10 text-brass-700 flex items-center justify-center group-hover:bg-brass group-hover:text-ivory transition-colors">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </div>
+          <h3 class="mt-10 font-display text-[1.75rem] text-navy-700 tracking-[-0.015em] leading-[1.1]">{p.title}</h3>
+          <div class="divider-line mt-5"></div>
+          <p class="mt-5 text-ink/80 leading-relaxed">{p.body}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

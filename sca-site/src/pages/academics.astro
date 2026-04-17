@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Prose from '../components/Prose.astro';
+import Tabs from '../components/Tabs.astro';
+import TabPanel from '../components/TabPanel.astro';
+import BookGrid from '../components/BookGrid.astro';
+
+const gradeTabs = [
+  { label: 'Pre-School (3 & 4 yr)', id: 'preschool' },
+  { label: 'Early Childhood (K–2)', id: 'early' },
+  { label: 'Elementary (3–5)', id: 'elementary' },
+  { label: 'Middle School (6–8)', id: 'middle' },
+];
+---
+
+<BaseLayout title="Academics — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="Academics"
+    title="Rigorous. Biblical. Built for real growth."
+    subtitle="We help students develop a Biblical worldview and the academic skills to thrive — from phonics to algebra, from chapel to coding."
+  />
+
+  <section class="section">
+    <div class="container-prose">
+      <Prose class="!mx-0 !max-w-3xl">
+        <blockquote>Shrewsbury Christian Academy seeks to provide learning experiences that help develop students with a biblical worldview to become servant leaders and disciples of Christ Jesus.</blockquote>
+        <p>We offer weekly enrichment classes for all students in kindergarten through grade eight, including art, music, physical education, computer technology, and (3rd–8th) Spanish. All grades visit the library regularly and participate in chapel services throughout the year. Every day begins with pledges to God, the Bible, and the United States of America.</p>
+      </Prose>
+
+      <div class="mt-12">
+        <Tabs group="grades" tabs={gradeTabs} />
+
+        <TabPanel group="grades" id="preschool" label="Pre-School">
+          <Prose class="!mx-0">
+            <h3>Pre-School (3 and 4 year olds)</h3>
+            <p>Our preschool program nurtures young learners in a warm, faith-filled environment, with developmentally appropriate instruction in early literacy, numeracy, and social skills.</p>
+            <p><a href="/assets/files/sca-preschool.pdf">Download our preschool program overview →</a></p>
+          </Prose>
+        </TabPanel>
+
+        <TabPanel group="grades" id="early" label="Early Childhood">
+          <Prose class="!mx-0">
+            <h3>Bible</h3>
+            <p>Students receive direct Bible instruction, even as biblical principles are integrated throughout the day. Teachers use the Positive Action for Christ curriculum as a framework.</p>
+            <h3>Language Arts</h3>
+            <p>A strong phonics program combined with whole language strategies rich in literature and creative writing. Invented spelling in kindergarten transitions to formal spelling instruction in first grade.</p>
+            <h3>Handwriting</h3>
+            <p>Developmentally appropriate activities for hand dominance and letter formation. Second graders begin cursive in late fall.</p>
+            <h3>Math</h3>
+            <p>Manipulatives, math games, and reproducibles build foundations in Kindergarten. Starting in first grade, students use the Saxon math curriculum.</p>
+            <h3>Social Studies</h3>
+            <p>Themed units help students understand the world around them; second graders are introduced to American history.</p>
+            <h3>Science</h3>
+            <p>Life science, physical science, earth and space science, and health/safety — rooted in the truth that God has created all living things.</p>
+            <h3>Technology</h3>
+            <p>Basic skills — file management, clip art, fonts — laying a foundation for the four primary Microsoft Office programs.</p>
+          </Prose>
+        </TabPanel>
+
+        <TabPanel group="grades" id="elementary" label="Elementary">
+          <Prose class="!mx-0">
+            <h3>Bible</h3>
+            <p>Daily direct Bible instruction. 3rd grade studies Abraham, Jacob, Joseph, and Daniel; 4th grade focuses on the life of Christ, the Holy Spirit, and Paul's missionary journeys; 5th grade surveys the Old Testament.</p>
+            <h3>Language Arts</h3>
+            <p>Five-stage writing process, daily grammar review, quarterly book reports, and formal spelling instruction five days a week.</p>
+            <h3>Math</h3>
+            <p>ACSI Purposeful Design Math in 3rd and 4th; Saxon in 5th. Computation, problem solving, algebraic concepts, geometry, and measurement.</p>
+            <h3>Social Studies</h3>
+            <p>From community and geography in 3rd, to U.S. regions in 4th, to American History in 5th.</p>
+            <h3>Science</h3>
+            <p>Hands-on investigation using the scientific method across life, physical, and earth/space science.</p>
+            <h3>Technology</h3>
+            <p>Page layout, research skills, text wrapping, formatting — advancing Microsoft Office fluency.</p>
+          </Prose>
+        </TabPanel>
+
+        <TabPanel group="grades" id="middle" label="Middle School">
+          <Prose class="!mx-0">
+            <h3>Bible</h3>
+            <p>6th grade: Daring Deliverers (400-year period of judges). 7th grade: To the Ends of the Earth (primitive church in Acts). 8th grade: Lightbearers (Christian worldview vs. postmodern worldviews).</p>
+            <h3>English</h3>
+            <p>Grammar, creative writing, fiction/poetry/non-fiction, and quarterly book reports with formal spelling and vocabulary.</p>
+            <h3>Math</h3>
+            <p>Saxon Math 87 → Saxon Algebra ½ → Saxon Algebra 1, preparing students for high school math.</p>
+            <h3>Science</h3>
+            <p>Unified study of life, earth, and physical science with a hands-on approach and annual science fair.</p>
+            <h3>History</h3>
+            <p>6th: Ancient Civilizations · 7th: Medieval / Early Modern · 8th: American History, with geography coursework in 7th & 8th.</p>
+            <h3>Technology</h3>
+            <p>Advanced Microsoft Office skills — citations, bibliographies, headers/footers — transitioning to Google Workspace.</p>
+          </Prose>
+        </TabPanel>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-ivory-200">
+    <div class="container-prose">
+      <div class="max-w-2xl">
+        <span class="eyebrow">Literature</span>
+        <h2 class="mt-3 font-display text-3xl md:text-4xl text-navy-700">Middle school reading list</h2>
+        <p class="mt-4 text-ink/80">A curated set of novels read in middle school. Titles vary at the discretion of the teacher.</p>
+      </div>
+      <div class="mt-10">
+        <BookGrid />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

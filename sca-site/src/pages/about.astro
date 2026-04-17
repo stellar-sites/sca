@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Prose from '../components/Prose.astro';
+---
+
+<BaseLayout title="About — Shrewsbury Christian Academy">
+  <PageHeader
+    eyebrow="About SCA"
+    title="A community Christian school, serving families since 1977."
+    subtitle="Non-denominational. Independent. Rooted in Scripture. Focused on the whole child."
+  />
+
+  <section class="section">
+    <div class="container-prose grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-5">
+        <div class="rounded-2xl overflow-hidden ring-1 ring-navy-100 shadow-lg sticky top-28">
+          <img src="/assets/img/sca_orig.jpg" alt="Historical photo of Shrewsbury Christian Academy" class="w-full h-auto object-cover" loading="lazy" />
+        </div>
+      </div>
+      <div class="lg:col-span-7">
+        <Prose>
+          <h2>About Shrewsbury Christian Academy</h2>
+          <p>Shrewsbury Christian Academy is a non-denominational, community Christian school serving families within Southern York County, Pennsylvania, as well as northern Harford and Baltimore Counties, Maryland. SCA is governed by a self-perpetuating Board of Trustees — parents and local business people who manage the business affairs of the school.</p>
+          <p>SCA is a 501(c)(3) nonprofit, supported through tuition and generous donations from churches, businesses, and individuals. Donations of materials, services, property, stock/bonds, and cash are always welcome and are tax deductible to the extent granted by state and federal law.</p>
+          <p>Since our founding as Christian School of Southern York County, the academically qualified teachers at SCA have been committed to investing in the lives of the students we serve — helping them mature spiritually, academically, socially, and physically. Dallastown, Red Lion, South Eastern, South Western, and Southern school districts provide public school bus transportation to SCA students at no charge.</p>
+
+          <h2>Our history</h2>
+          <p>Shrewsbury Christian Academy was founded by Jeanette Harvey in 1977 as a ministry to the community, welcoming students from a variety of backgrounds and denominations. Over the years, the school has continued to grow in numbers, programs, and reputation. We remain committed to providing a unique Bible-based, Christ-centered education that prepares young people to impact their world for Jesus and to develop a Christian worldview that will be lived out in real and meaningful ways.</p>
+
+          <h2>Vision</h2>
+          <blockquote>Achieving excellence in knowledge and faith.</blockquote>
+
+          <h2>Mission</h2>
+          <blockquote>Educating students in a Christian environment that reveals God's ultimate purpose for their lives.</blockquote>
+        </Prose>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-ivory-200">
+    <div class="container-prose">
+      <div class="max-w-2xl">
+        <span class="eyebrow">Purpose</span>
+        <h2 class="mt-3 font-display text-3xl md:text-4xl text-navy-700">Five areas in which we help the whole child grow.</h2>
+        <p class="mt-4 text-ink/80 text-lg">Shrewsbury Christian Academy partners with home and church to provide an atmosphere in which the whole child may grow toward full God-given potential.</p>
+      </div>
+      <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-5 gap-4">
+        {[
+          { title: 'Spiritual Growth', body: 'Understanding the Bible as God\'s inerrant Word and forming a personal relationship with Jesus Christ.' },
+          { title: 'Intellectual Development', body: 'Effective thinking, comprehension, communication, and computation — integrated with Biblical principles.' },
+          { title: 'Physical Improvement', body: 'Caring for the body as God\'s temple through exercise, nutrition, sportsmanship, and coordination.' },
+          { title: 'Emotional Stability', body: 'Applying Biblical principles to success, failure, stress, emotions, and healthy self-image.' },
+          { title: 'Social Maturity', body: 'Developing respect for authority, self-discipline, good citizenship, and responsibility to home and community.' },
+        ].map((d) => (
+          <div class="bg-white rounded-xl p-6 border border-navy-100">
+            <h3 class="font-display text-lg text-navy-700">{d.title}</h3>
+            <p class="mt-2 text-sm text-ink/80 leading-relaxed">{d.body}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-prose grid lg:grid-cols-2 gap-10">
+      <Prose>
+        <h2>Statement of Faith</h2>
+        <ul>
+          <li>We believe in the divine inspiration, infallibility, and final authority of the Bible as the Word of God.</li>
+          <li>We believe in the Triune God, eternally existent as Father, Son, and Holy Spirit.</li>
+          <li>We believe in the uniqueness of man, by virtue of his special creation in God's image.</li>
+          <li>We believe in Jesus Christ as true man and true God; in His unique Deity as the incarnate, virgin-born Son of God.</li>
+          <li>We believe in the representative and substitutionary death of our Lord Jesus Christ as the necessary atonement for our sins.</li>
+          <li>We believe in the Holy Spirit, through whom we come to faith in Christ and who enables us daily to grow in grace.</li>
+          <li>We believe in the resurrection of the crucified body of our Lord, and in His personal return.</li>
+          <li>We believe in the bodily resurrection of the just and the unjust, the everlasting blessedness of the saved and the everlasting punishment of the lost.</li>
+          <li>We believe that marriage is sanctioned exclusively by God, which joins one man and one woman as a single union in holy matrimony.</li>
+        </ul>
+      </Prose>
+      <Prose>
+        <h2>Philosophy</h2>
+        <h3>What is a Christian school?</h3>
+        <p>A non-public, privately funded school which gives instruction in all subjects normally taught in private and public schools, and which seeks at all times to give a central place to the Bible and Christian truth.</p>
+        <h3>Why have a Christian school?</h3>
+        <blockquote>"And these words which I command you this day shall be upon your hearts and you shall teach them diligently to your children." — Deuteronomy 6:6–7</blockquote>
+        <p>A Christian school exists so that a child may be led into a close relationship with God through a sound educational program. Education must do more than prepare us for life on this earth; it must begin to develop in us a Biblical worldview by which we see God's handiwork in all things.</p>
+      </Prose>
+    </div>
+  </section>
+</BaseLayout>

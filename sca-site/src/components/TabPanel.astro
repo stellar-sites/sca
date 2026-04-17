@@ -1,0 +1,18 @@
+---
+interface Props {
+  group: string;
+  id: string;
+  label: string;
+}
+const { group, id, label } = Astro.props;
+---
+
+<section
+  role="tabpanel"
+  id={`${group}-panel-${id}`}
+  aria-labelledby={`${group}-tab-${id}`}
+  tabindex="0"
+  class="focus:outline-none"
+>
+  <slot />
+</section>

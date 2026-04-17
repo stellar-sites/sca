@@ -1,0 +1,39 @@
+{
+  "schoolYear": "2024-25",
+  "principal": "Mrs. Lippy",
+  "phone": "(717) 235-5763",
+  "fax": "(717) 235-5357",
+  "email": "office@scaonline.org",
+  "givingEmail": "Giving@scaonline.org",
+  "address": {
+    "street": "701 Windy Hill Road",
+    "city": "New Freedom",
+    "state": "PA",
+    "zip": "17349"
+  },
+  "officeHours": {
+    "school": "Monday–Friday, 8:40 AM – 4:00 PM",
+    "summer": "Tuesday & Thursday, 9:00 AM – 1:00 PM"
+  },
+  "externalLinks": {
+    "sycamore": "https://app.sycamoreeducation.com/index.php?task=newlogin&schoolid=1494",
+    "sycamoreAdmissions": "https://app.sycamoreeducation.com/admissions/index.php?schoolid=1494",
+    "efunds": "https://eps.mvpbanking.com/cgi-bin/efs/login.pl?access=55719",
+    "facebook": "https://www.facebook.com/ShrewsburyChristianAcademy"
+  },
+  "tuitionRows": [
+    { "grade": "Pre-K3", "schedule": "Tues & Thurs (half day)", "annualTotal": "$1,070", "registrationFee": "$75" },
+    { "grade": "Pre-K3", "schedule": "Tues & Thurs (full day)", "annualTotal": "$2,145", "registrationFee": "$75" },
+    { "grade": "Pre-K4", "schedule": "Mon, Wed, Fri (half day)", "annualTotal": "$1,585", "registrationFee": "$75" },
+    { "grade": "Pre-K4", "schedule": "Mon, Wed, Fri (full day)", "annualTotal": "$3,220", "registrationFee": "$125" },
+    { "grade": "Pre-K4", "schedule": "Mon–Fri (half day)", "annualTotal": "$2,685", "registrationFee": "$125" },
+    { "grade": "Pre-K4", "schedule": "Mon–Fri (full day)", "annualTotal": "$4,498", "registrationFee": "$250" },
+    { "grade": "K5 – 8th", "schedule": "Mon–Fri (full day)", "annualTotal": "$4,498", "registrationFee": "$250" }
+  ],
+  "quickFacts": [
+    { "label": "Grades", "value": "PreK-3 through 8th" },
+    { "label": "Founded", "value": "1977" },
+    { "label": "Location", "value": "New Freedom, PA" },
+    { "label": "Affiliation", "value": "Non-denominational Christian" }
+  ]
+}
