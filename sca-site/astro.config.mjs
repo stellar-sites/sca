@@ -3,13 +3,18 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
+import cloudflare from "@astrojs/cloudflare";
+
 export default defineConfig({
   site: 'https://scaonline.org',
   integrations: [tailwind(), sitemap(), mdx()],
+
   image: {
     service: { entrypoint: 'astro/assets/services/sharp' },
   },
+
   server: { host: true },
+
   vite: {
     ssr: {
       // @fontsource 5.2+ ships export maps that make Node's ESM loader choke
@@ -26,4 +31,7 @@ export default defineConfig({
       },
     },
   },
+
+  output: "hybrid",
+  adapter: cloudflare()
 });
